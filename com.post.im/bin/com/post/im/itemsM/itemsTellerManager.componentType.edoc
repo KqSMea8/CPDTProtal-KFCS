@@ -1,0 +1,18 @@
+<map>
+  <entry>
+    <string>com.post.im.itemsM.itemsTellerManager.editItemsUser(commonj.sdo.DataObject[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;editItemsUser&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;editItemsUser&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.itemsM.itemsTellerManager.editItemsUser&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;ItemsUserInfos(commonj.sdo.DataObject[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.itemsM.itemsTellerManager.queryItemsUser(String, com.eos.foundation.PageCond, Int, Int, com.primeton.das.criteria.criteriaType)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;queryItemsUser&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;queryItemsUser&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.itemsM.itemsTellerManager.queryItemsUser&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;itemsCd(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;page(com.eos.foundation.PageCond):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageIndex(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageSize(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;criteria(com.primeton.das.criteria.criteriaType):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;ItemsUserInfos(commonj.sdo.DataObject[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;total(Int):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.itemsM.itemsTellerManager.insertItemUser(String, com.post.im.itemsM.itemsM.TbImItemsInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;insertItemUser&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateItemsManage&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.itemsM.itemsTellerManager.insertItemUser&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;user(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;tbimitemsinfo(com.post.im.itemsM.itemsM.TbImItemsInfo):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;str(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>itemsTellerManager</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;itemsTellerManager.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;itemsTellerManager&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.itemsM.itemsTellerManager&lt;br&gt;&lt;b&gt;Description:&lt;/b&gt;项目团队管理&lt;/html&gt;</string>
+  </entry>
+</map>

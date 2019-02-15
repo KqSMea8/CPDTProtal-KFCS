@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>人员信息列表查询</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" src="../common/nui/nui.js"></script>
+    <style>
+    </style>
+</head>
+<body style="">
+	<div class="nui-fit" >
+	  <div class="nui-panel" title="人员信息列表查询"  id="queryFromDiv"
+	  	showHeader="false" showToolbar="false" showFooter="false"  showCloseButton="false" showCollapseButton="false" 
+	  		collapseOnTitleClick="false" style="width: 100%;text-align: left;">
+	     <div id="queryform" class="nui-form" style="height: 100%;overflow: auto;" align="center">
+	        <!--折叠框开始-->
+	        <div>
+				<div class="top_box" collapse = "false">
+					<div class="cxtj">
+			        	<div class="wenzi">
+			                <a>查询条件</a>
+			            </div>
+			            <div class="collapse" style="float:left;">
+			                <img src="../common/nui/themes/icons/groupbox_collapse.gif" />
+			            </div>
+			         </div>
+			    </div>
+			    <div class="name_box">
+			    	<div class="name">
+			    		<!--折叠框内容-->
+			    		<table style="width: 99%;">
+			    			<tr>
+			    				<td>人员编号:</td>
+			    				<td>
+			    					<input class="nui-textbox" name="tlrno" emptyText="人员编号"/>
+			    				</td>
+			    				<td>人员名称:</td>
+			    				<td>
+			    					<input class="nui-textbox" name="tlrname" emptyText="人员名称"/>
+			    				</td>
+			    			
+			    			</tr>
+			    		</table>
+			    		<!--折叠框内容结束-->
+			        </div>
+			    </div>
+			</div>
+			<!--第一个折叠框结束-->
+	  </div>
+	  <!--按钮区域，右对齐-->
+	  <div class="nui-fit" style="width: 100%;" showHeader="false" id="tableDiv">
+	    <div class="nui-toolbar" style="border-bottom:0;padding:0px;height:35px;">
+	        	  <a class="nui-button" onclick="order()">
+	            确定
+	        	  </a>
+				 
+             
+	    </div>
+	    <!--按钮区结束-->
+	    <!--数据展示区开始-->
+	    <div id="datagrid1" class="nui-datagrid nui-panel" url="/api/tellers/infos"
+			onrowdblclick="showDetaildbclick" style="width:100%;height: calc(100% - 35px);" pageSize="10"  virtualScroll="true"
+			dataField="data.data" totalField="data.total"
+			showPageInfo="true" multiSelect="true" allowSortColumn="false">
+		    <div property="columns">  
+		      <div type="indexcolumn" headerAlign="center">
+			  序号
+	          </div>
+	          <div type="checkcolumn">
+	          </div>
+		      <div field="tlrno" headerAlign="center" align="center" allowSort="true">
+		                        人员编号
+		      </div>
+		      <div field="tlrname" headerAlign="center" align="center" allowSort="true">
+		                        人员名称
+		      </div>
+		      <div field="sex" headerAlign="center" align="center" allowSort="true" renderer="showSex">
+		                        性别
+		      </div>
+		      <div field="telephone" headerAlign="center" align="center" allowSort="true">
+		                       固定电话
+		      </div>
+		      <div field="mobilephone" headerAlign="center" align="center" allowSort="true">
+		                       手机号码
+		      </div>
+		      <div field="email" headerAlign="center" align="center" allowSort="true">
+		                        电子邮件
+		      </div>  
+		      <div field="instno" headerAlign="center" align="center" allowSort="true">
+		                        所属机构编码
+		      </div>
+		      <div field="tlrstat" headerAlign="center" align="center" allowSort="true" renderer="showTlrStat">
+		                        人员状态
+		      </div>
+		      <div field="opertimestamp" headerAlign="center" align="center" allowSort="true" dateFormat="yyyyMMdd hh:mi:ss">
+		                        维护时间
+		      </div>          
+		    </div>
+		  </div>
+		  <!--数据展示区结束-->
+		</div>
+	  </div>
+  <script type="text/javascript">
+  	//注册要进行高度改变的div的元素ID;
+  	$(window).load(function() {
+  		//第一个参数为高度发生改变的元素,第二个高度为随着第一个高度发生改变的高度
+	    registerChangeEvent("queryFromDiv","tableDiv");
+	});
+	//解析页面的nui元素
+  	nui.parse();
+  	//获取到页面的datagrid元素，获取数据
+  	var grid = nui.get("datagrid1");
+	var form = new nui.Form("#queryform");
+	search();
+	//查询，根据查询表单的数据进行datagrid数据的查询
+	function search() {
+		var json = form.getData(false,false);
+		grid.load(json);
+	}
+	
+	
+ 
+    	function order(){
+    				var rows = grid.getSelecteds();
+						if(rows.length > 0){
+							nui.confirm("再次确定选择的人员？","提示",
+							function(action){
+								if(action=="ok"){
+									var datas = new Array();
+									for(i=0;i<rows.length;i++) {
+										datas.push(rows[i]);
+									}
+									var json = nui.encode(datas);
+									CloseWindow(json);
+								}
+							});
+						}
+          }
+        function CloseWindow(action){
+            if(action=="close"){
+
+              }else if(window.CloseOwnerWindow)
+              return window.CloseOwnerWindow(action);
+              else
+              return window.close();
+            }
+	
+	//新增
+	function add() {
+		//打开新增页面
+		nui.open({
+			url: "./telleradd.html",
+			title: "人员增加", 
+			//设置页面的高度，直接从windowProperties这个元素种获取，这个元素定义在common.js种
+			width: windowProperties.width, 
+			height: windowProperties.height , 
+			allowResize:false,
+			showMaxButton: false,
+			showCloseButton: false,
+			showModal: false,
+			allowDrag:false,
+			center: true,
+			onload: function () {},
+			ondestroy: function (action) {//弹出页面关闭前调用，进行页面刷新
+				if(action=="saveSuccess"){
+					search();
+				}
+			}
+       }).showAtPos(windowProperties.x,windowProperties.y);//对窗口的位置进行定位，如不设置，窗口的位置位于浏览器窗口中心
+	}
+
+	//打开编辑窗口
+	function edit() {
+		var row = grid.getSelecteds();
+			if (row.length > 1) {
+				nui.alert("请选择一条进行编辑","提示");
+			} else if (row.length == 1) {
+				nui.open({
+					url: "./tellerupdate.html",
+					title: "人员编辑",
+					width: windowProperties.width, 
+					height: windowProperties.height , 
+					allowResize:false,
+					onload: function () {
+						var iframe = this.getIFrameEl();
+						var data = row[0];
+						//直接从页面获取，不用去后台获取
+						iframe.contentWindow.setData(data);//赋值
+					},
+					ondestroy: function (action) {
+						if(action=="saveSuccess"){
+							grid.reload();
+						}
+					}
+				}).showAtPos(windowProperties.x,windowProperties.y);;
+			} else {
+			nui.alert("请选中一条记录","提示");
+		}
+	}
+	
+       //密码重置
+    function resetPassword(){
+		var rows = grid.getSelecteds();
+		if(rows.length > 0){
+			nui.confirm("确定重置选中人员密码？","提示",
+			function(action){
+				if(action=="ok"){
+					var datas = new Array();
+					for(i=0;i<rows.length;i++) {
+						datas.push(rows[i]);
+					}
+					var json = nui.encode(datas);
+					grid.loading("正在重置密码中,请稍等...");
+					var URL = "/api/tellers/actions/resetpwd";
+					$.ajax({
+						url : URL,
+						type: 'POST',
+						data: json,
+						cache: false,
+						traditional: true,
+						contentType:'application/json',
+						success:function(text){
+							var returnJson = nui.decode(text);
+							if(returnJson.code == "000000"){
+								grid.reload();
+								nui.alert("密码重置成功！", "提示", function(action){
+								});
+							} else{
+								grid.unmask();
+								nui.alert("密码重置失败！", "提示");
+							};
+						}
+					});
+				}
+			});
+		}else{
+			nui.alert("请选中一条记录！","提示");
+		}
+	}
+
+	//删除
+	function remove(){
+		var rows = grid.getSelecteds();
+		if(rows.length > 0){
+			nui.confirm("确定删除选中记录？","提示",
+			function(action){
+				if(action=="ok"){
+					var datas = new Array();
+					for(i=0;i<rows.length;i++) {
+						datas.push(rows[i]);
+					}
+					var json = nui.encode(datas);
+					grid.loading("正在删除中,请稍等...");
+					var URL = "/api/tellers/actions/del";
+					$.ajax({
+						url : URL,
+						type: 'POST',
+						data: json,
+						cache: false,
+						traditional: true,
+						contentType:'application/json',
+						success:function(text){
+							var returnJson = nui.decode(text);
+							if(returnJson.code == "000000"){
+								grid.reload();
+								nui.alert("删除成功", "提示", function(action){
+								});
+							} else{
+								grid.unmask();
+								nui.alert("删除失败", "提示");
+							};
+						}
+					});
+				}
+			});
+		}else{
+			nui.alert("请选中一条记录！","提示");
+		}
+	}
+	function showSex(e)
+	{
+		//反显业务字典
+		return nui.getDictText('Sex', e.value);
+	}  
+
+    function showTlrStat(e)
+    {
+    	//反显业务字典
+		return nui.getDictText('Tlr_Stat', e.value);
+    }
+    function setOperDate(e)
+    {
+		var colvalue = e.value;
+		return colvalue.substring(0,4)+"-"+colvalue.substring(4,6)+"-"+colvalue.substring(6,8)+" "+colvalue.substring(8,10)+":"+colvalue.substring(10,12)+":"+colvalue.substring(12,14);
+    }
+
+	//重置查询条件
+	function reset(){
+		var form = new nui.Form("#queryform");
+		form.reset();
+	}
+	function showdemo(){
+		nui.open({
+			url: "./test.html",
+			title: "下拉框demo展示", 
+			width: windowProperties.width, 
+			height: windowProperties.height , 
+			allowResize:false,
+			showMaxButton: false,
+			showCloseButton: false,
+			showModal: false,
+			allowDrag:false,
+			center: true
+       }).showAtPos(windowProperties.x,windowProperties.y);//对窗口的位置进行定位，如不设置，窗口的位置位于浏览器窗口中心
+	}
+  </script>
+</body>
+</html>

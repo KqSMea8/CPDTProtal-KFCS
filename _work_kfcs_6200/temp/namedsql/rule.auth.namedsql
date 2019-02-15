@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap
+ PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN"
+ "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap>
+<!-- ========insert rule========== -->
+    <parameterMap class="java.util.HashMap" id="insert_rule_params">
+        <parameter javaType="string" jdbcType="VARCHAR" property="ruleId"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="ruleName"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="tenantId"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="ruleType"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="namespace"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="createUser"/>
+        <parameter javaType="date" jdbcType="TIMESTAMP" property="createTime"/>
+        <parameter javaType="[B" jdbcType="BLOB" property="ruleExpression" typeHandler="com.primeton.cap.impl.auth.rule.BlobTypeHandlerCallback"/>
+    </parameterMap>
+    <insert id="insert_rule" parameterMap="insert_rule_params">
+    	<![CDATA[
+    		insert into CAP_RULE(RULE_ID,RULE_NAME,TENANT_ID,RULE_TYPE,NAMESPACE,CREATEUSER,CREATETIME,RULE_EXPRESSION) values (?,?,?,?,?,?,?,?)
+    	]]>
+    </insert>
+<!-- ========get rule========== -->
+    <resultMap class="java.util.HashMap" id="query_rule_result">
+        <result javaType="string" jdbcType="VARCHAR" property="ruleId" column="RULE_ID"/>
+        <result javaType="string" jdbcType="VARCHAR" property="ruleName" column="RULE_NAME"/>
+        <result javaType="string" jdbcType="VARCHAR" property="tenantId" column="TENANT_ID"/>
+        <result javaType="string" jdbcType="VARCHAR" property="ruleType" column="RULE_TYPE"/>
+        <result javaType="string" jdbcType="VARCHAR" property="namespace" column="NAMESPACE"/>
+        <result javaType="string" jdbcType="VARCHAR" property="createUser" column="CREATEUSER"/>
+        <result javaType="date" jdbcType="TIMESTAMP" property="createTime" column="CREATETIME"/>
+        <result javaType="[B" jdbcType="BLOB" property="ruleExpression" column="RULE_EXPRESSION" typeHandler="com.primeton.cap.impl.auth.rule.BlobTypeHandlerCallback"/>
+    </resultMap>
+    <select id="get_rule_by_id" resultMap="query_rule_result" parameterClass="java.lang.String">
+    	<![CDATA[
+    		select * from CAP_RULE where RULE_ID=#value#
+    	]]>
+    </select>
+<!-- ========query by namespace========== --> 
+   <select id="query_rule_by_namespace" resultMap="query_rule_result" parameterClass="java.lang.String">
+    	<![CDATA[
+    		select * from CAP_RULE where NAMESPACE=#value#
+    	]]>
+    </select>
+
+<!-- ========query by type========== --> 
+   <select id="query_rule_by_ruletype" resultMap="query_rule_result" parameterClass="java.lang.String">
+    	<![CDATA[
+    		select * from CAP_RULE where RULE_TYPE=#value#
+    	]]>
+    </select>
+
+<!-- ========delete rule========== -->
+    <delete id="delete_rule_by_id" parameterClass="java.lang.String">
+    	<![CDATA[
+    		delete from CAP_RULE where RULE_ID=#value#
+    	]]>
+    </delete>
+<!-- ========update rule========== -->
+    <parameterMap class="java.util.HashMap" id="update_rule_params">
+        <parameter javaType="string" jdbcType="VARCHAR" property="ruleName"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="tenantId"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="ruleType"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="namespace"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="createUser"/>
+        <parameter javaType="date" jdbcType="TIMESTAMP" property="createTime"/>
+        <parameter javaType="[B" jdbcType="BLOB" property="ruleExpression" typeHandler="com.primeton.cap.impl.auth.rule.BlobTypeHandlerCallback"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="ruleId"/>
+    </parameterMap>
+    <update id="update_rule" parameterMap="update_rule_params">
+    	<![CDATA[
+    		update CAP_RULE set RULE_NAME=?, TENANT_ID=?, RULE_TYPE=?, NAMESPACE=?, CREATEUSER=?, CREATETIME=?, RULE_EXPRESSION=? where RULE_ID=?
+    	]]>
+    </update>
+
+
+
+<!--======================================================================-->
+
+<!-- ========insert ruleauth========== -->
+    <parameterMap class="java.util.HashMap" id="insert_ruleauth_params">
+        <parameter javaType="string" jdbcType="VARCHAR" property="ruleauthId"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="tenantId"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="ruleId"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="resId"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="resType"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="resState"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="createUser"/>
+        <parameter javaType="date" jdbcType="TIMESTAMP" property="createTime"/>
+    </parameterMap>
+    <insert id="insert_ruleauth" parameterMap="insert_ruleauth_params">
+    	<![CDATA[
+    		insert into CAP_RULEAUTH(RULEAUTH_ID,TENANT_ID,RULE_ID,RES_ID,RES_TYPE,RES_STATE,CREATEUSER,CREATETIME) values (?,?,?,?,?,?,?,?)
+    	]]>
+    </insert>
+<!-- ========get ruleauth========== -->
+    <resultMap class="java.util.HashMap" id="query_ruleauth_result">
+        <result javaType="string" jdbcType="VARCHAR" property="ruleauthId" column="RULEAUTH_ID"/>
+        <result javaType="string" jdbcType="VARCHAR" property="tenantId" column="TENANT_ID"/>
+        <result javaType="string" jdbcType="VARCHAR" property="ruleId" column="RULE_ID"/>
+        <result javaType="string" jdbcType="VARCHAR" property="resId" column="RES_ID"/>
+        <result javaType="string" jdbcType="VARCHAR" property="resType" column="RES_TYPE"/>
+        <result javaType="string" jdbcType="VARCHAR" property="resState" column="RES_STATE"/>
+        <result javaType="string" jdbcType="VARCHAR" property="createUser" column="CREATEUSER"/>
+        <result javaType="date" jdbcType="TIMESTAMP" property="createTime" column="CREATETIME"/>
+    </resultMap>
+    <select id="get_ruleauth_by_id" resultMap="query_ruleauth_result" parameterClass="java.lang.String">
+    	<![CDATA[
+    		select * from CAP_RULEAUTH where RULEAUTH_ID=#value#
+    	]]>
+    </select>
+<!-- ========query by ruleid============= -->
+ 	<select id="query_ruleauth_by_ruleid" resultMap="query_ruleauth_result" parameterClass="java.lang.String">
+    	<![CDATA[
+    		select * from CAP_RULEAUTH where RULE_ID=#value#
+    	]]>
+    </select>
+<!-- ========query by resourcekey============= -->
+ 	<select id="query_ruleauth_by_resourcekey" resultMap="query_ruleauth_result" parameterClass="java.util.HashMap">
+    	<![CDATA[
+    		select * from CAP_RULEAUTH where RES_ID=#resId# and RES_TYPE=#resType#
+    	]]>
+    </select>
+<!-- ========delete by id========== -->
+    <delete id="delete_ruleauth_by_id" parameterClass="java.lang.String">
+    	<![CDATA[
+    		delete from CAP_RULEAUTH where RULEAUTH_ID=#value#
+    	]]>
+    </delete>
+<!-- ========delete by ruleid========== -->
+    <delete id="delete_ruleauth_by_ruleid" parameterClass="java.lang.String">
+    	<![CDATA[
+    		delete from CAP_RULEAUTH where RULE_ID=#value#
+    	]]>
+    </delete>
+<!-- ========delete by resourcekey========== -->
+    <delete id="delete_ruleauth_by_resourcekey" parameterClass="java.util.HashMap">
+    	<![CDATA[
+    		delete from CAP_RULEAUTH where RES_ID=#resId# and RES_TYPE=#resType#
+    	]]>
+    </delete>
+<!-- ========update ruleauth========== -->
+    <parameterMap class="java.util.HashMap" id="update_ruleauth_params">
+        <parameter javaType="string" jdbcType="VARCHAR" property="tenantId"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="ruleId"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="resId"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="resType"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="resState"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="createUser"/>
+        <parameter javaType="date" jdbcType="TIMESTAMP" property="createTime"/>
+        <parameter javaType="string" jdbcType="VARCHAR" property="ruleauthId"/>
+    </parameterMap>
+    <update id="update_ruleauth" parameterMap="update_ruleauth_params">
+    	<![CDATA[
+    		update CAP_RULEAUTH set TENANT_ID=?, RULE_ID=?, RES_ID=?, RES_TYPE=?, RES_STATE=?, CREATEUSER=?, CREATETIME=? where RULEAUTH_ID=?
+    	]]>
+    </update>
+
+</sqlMap>

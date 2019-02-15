@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class dynamic-insert="true" dynamic-update="true" entity-name="com.post.im.resoAplyAppr.TbImApplyAppr" table="tb_im_apply_appr">
+        <tuplizer class="com.primeton.server.das.tuplizer.SDOEntityTuplizer" entity-mode="sdo"/>
+        <id name="recId" type="int">
+            <column name="rec_id"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="operTime" type="timestamp">
+            <column name="oper_time" not-null="true"/>
+        </property>
+        <property name="userId" type="string">
+            <column length="64" name="user_id" not-null="true"/>
+        </property>
+        <property name="operType" type="string">
+            <column length="2" name="oper_type" not-null="true"/>
+        </property>
+        <property name="sourceType" type="string">
+            <column length="2" name="source_type" not-null="true"/>
+        </property>
+        <property name="sourceId" type="string">
+            <column length="64" name="source_id" not-null="true"/>
+        </property>
+        <property name="field1" type="string">
+            <column length="64" name="field1"/>
+        </property>
+        <property name="field2" type="string">
+            <column length="64" name="field2"/>
+        </property>
+        <property name="crTime" type="timestamp">
+            <column name="cr_time"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns="com.post.im.backlog.backlog" xmlns:sdo="commonj.sdo" xmlns:sdoJava="commonj.sdo/java" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="com.post.im.backlog.backlog">
+    <xs:complexType name="TbImBacklogInfo">
+        <xs:sequence>
+            <xs:any minOccurs="0"/>
+            <xs:element minOccurs="0" name="recId" nillable="true" type="xs:int"/>
+            <xs:element minOccurs="0" name="resourceId" nillable="true" type="xs:int"/>
+            <xs:element minOccurs="0" name="todoType" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="todoTitle" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="itemsCd" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="applyDate" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="detailUrl" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="backlogUser" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="backlogRole" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="handleTime" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="openStat" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="field1" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="field2" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="edTime" nillable="true" type="xs:dateTime"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

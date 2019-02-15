@@ -1,0 +1,34 @@
+<map>
+  <entry>
+    <string></string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;tbimprivapplybiz.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimprivapplybiz&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimprivapplybiz.getTbImPrivApply(com.post.im.resourceM.priv.priv.TbImPrivApply)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getTbImPrivApply&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getTbImPrivApply&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimprivapplybiz.getTbImPrivApply&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimprivapply(com.post.im.resourceM.priv.priv.TbImPrivApply):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimprivapply(com.post.im.resourceM.priv.priv.TbImPrivApply):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimprivapplybiz.deleteTbImPrivApplys(com.post.im.resourceM.priv.priv.TbImPrivApply[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;deleteTbImPrivApplys&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;deleteTbImPrivApplys&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimprivapplybiz.deleteTbImPrivApplys&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimprivapplys(com.post.im.resourceM.priv.priv.TbImPrivApply[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimprivapplybiz.queryTbImPrivApplyInfo(String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;queryTbImPrivApplyInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;queryTbImPrivApplyInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimprivapplybiz.queryTbImPrivApplyInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;resourceId(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;data(com.post.im.resourceM.priv.priv.TbImPrivApply):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimprivapplybiz.queryTbImPrivApplys(com.primeton.das.criteria.criteriaType, com.eos.foundation.PageCond, Int, Int)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;queryTbImPrivApplys&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;queryTbImPrivApplys&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimprivapplybiz.queryTbImPrivApplys&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;criteria(com.primeton.das.criteria.criteriaType):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;page(com.eos.foundation.PageCond):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageIndex(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageSize(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimprivapplys(com.post.im.resourceM.priv.priv.TbImPrivApply[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;total(Int):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimprivapplybiz.addTbImPrivApply(com.post.im.resourceM.priv.priv.TbImPrivApply)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;addTbImPrivApply&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;addTbImPrivApply&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimprivapplybiz.addTbImPrivApply&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimprivapply(com.post.im.resourceM.priv.priv.TbImPrivApply):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimprivapplybiz.updateTbImPrivApplyOnly(com.post.im.resourceM.priv.priv.TbImPrivApply)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateTbImPrivApplyOnly&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateTbImPrivApply&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimprivapplybiz.updateTbImPrivApplyOnly&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimprivapply(com.post.im.resourceM.priv.priv.TbImPrivApply):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimprivapplybiz.updateTbImPrivApply(com.post.im.resourceM.priv.priv.TbImPrivApply)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateTbImPrivApply&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateTbImPrivApply&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimprivapplybiz.updateTbImPrivApply&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimprivapply(com.post.im.resourceM.priv.priv.TbImPrivApply):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

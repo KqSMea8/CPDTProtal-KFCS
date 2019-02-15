@@ -1,0 +1,15 @@
+SMAP
+getMenuData_biz.java
+biz
+*S biz
+*F
++ 0 getMenuData.bizx
+org/gocom/components/coframe/auth/LoginManager/getMenuData.bizx
+*L
+2:300
+1:339,2
+10000:342
+40000:345
+400000:348
+400001:351
+*E

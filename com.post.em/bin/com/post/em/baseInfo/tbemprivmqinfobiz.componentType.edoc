@@ -1,0 +1,26 @@
+<map>
+  <entry>
+    <string></string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;tbemprivmqinfobiz.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.tbemprivmqinfobiz&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.tbemprivmqinfobiz.addTbEmPrivMqInfo(com.post.em.baseInfo.mq.TbEmPrivMqInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;addTbEmPrivMqInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;addTbEmPrivMqInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.tbemprivmqinfobiz.addTbEmPrivMqInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivmqinfo(com.post.em.baseInfo.mq.TbEmPrivMqInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.tbemprivmqinfobiz.updateTbEmPrivMqInfo(com.post.em.baseInfo.mq.TbEmPrivMqInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateTbEmPrivMqInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateTbEmPrivMqInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.tbemprivmqinfobiz.updateTbEmPrivMqInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivmqinfo(com.post.em.baseInfo.mq.TbEmPrivMqInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.tbemprivmqinfobiz.queryTbEmPrivMqInfos(com.primeton.das.criteria.criteriaType, com.eos.foundation.PageCond, Int, Int)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;queryTbEmPrivMqInfos&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;queryTbEmPrivMqInfos&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.tbemprivmqinfobiz.queryTbEmPrivMqInfos&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;criteria(com.primeton.das.criteria.criteriaType):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;page(com.eos.foundation.PageCond):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageIndex(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageSize(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivmqinfos(com.post.em.baseInfo.mq.TbEmPrivMqInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;total(Int):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.tbemprivmqinfobiz.getTbEmPrivMqInfo(com.post.em.baseInfo.mq.TbEmPrivMqInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getTbEmPrivMqInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getTbEmPrivMqInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.tbemprivmqinfobiz.getTbEmPrivMqInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivmqinfo(com.post.em.baseInfo.mq.TbEmPrivMqInfo):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivmqinfo(com.post.em.baseInfo.mq.TbEmPrivMqInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.tbemprivmqinfobiz.deleteTbEmPrivMqInfos(com.post.em.baseInfo.mq.TbEmPrivMqInfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;deleteTbEmPrivMqInfos&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;deleteTbEmPrivMqInfos&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.tbemprivmqinfobiz.deleteTbEmPrivMqInfos&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivmqinfos(com.post.em.baseInfo.mq.TbEmPrivMqInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

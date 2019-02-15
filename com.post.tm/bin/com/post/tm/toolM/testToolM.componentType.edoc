@@ -1,0 +1,18 @@
+<map>
+  <entry>
+    <string>com.post.tm.toolM.testToolM.testToolScheUpdate(com.post.tm.toolM.testToolSche.TbTestToolsSche)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;testToolScheUpdate&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;保存报销单的修改&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.tm.toolM.testToolM.testToolScheUpdate&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;info(com.post.tm.toolM.testToolSche.TbTestToolsSche):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>testToolM</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;testToolM.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;testToolM&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.tm.toolM.testToolM&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.tm.toolM.testToolM.testToolScheAdd(com.post.tm.toolM.testToolSche.TbTestToolsSche)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;testToolScheAdd&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;expenseAdd&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.tm.toolM.testToolM.testToolScheAdd&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;info(com.post.tm.toolM.testToolSche.TbTestToolsSche):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.tm.toolM.testToolM.testToolScheQuery(String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;testToolScheQuery&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;expenseQuery&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.tm.toolM.testToolM.testToolScheQuery&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;begin(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;end(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;testToolScheInfo(com.post.tm.toolM.testToolSche.TbTestToolsSche[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

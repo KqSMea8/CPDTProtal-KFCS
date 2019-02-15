@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Require-Bundle: com.eos.workflow,com.primeton.eos.richweb,com.eos.foun
+ dation,com.post.im
+eos-webCtxPath: em
+Bundle-Vendor: Administrator
+Bundle-Version: 1.0.0
+Bundle-Name: com.post.em
+Bundle-Description: 环境管理
+Bundle-SymbolicName: com.post.em
+

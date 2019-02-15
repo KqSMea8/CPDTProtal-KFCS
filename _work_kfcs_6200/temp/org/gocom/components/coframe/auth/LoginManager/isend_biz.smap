@@ -1,0 +1,20 @@
+SMAP
+isend_biz.java
+biz
+*S biz
+*F
++ 0 isend.bizx
+org/gocom/components/coframe/auth/LoginManager/isend.bizx
+*L
+2:467
+1:507,2
+10000:510
+40000:513
+20000:516
+20001:519
+20003:522
+20002:525
+30001:528
+20004:531
+30000:534
+*E

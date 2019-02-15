@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns="com.post.im.resourceM.net.net" xmlns:sdo="commonj.sdo" xmlns:sdoJava="commonj.sdo/java" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="com.post.im.resourceM.net.net">
+    <xs:complexType name="TbImNetApply">
+        <xs:sequence>
+            <xs:any minOccurs="0"/>
+            <xs:element minOccurs="0" name="recId" nillable="true" type="xs:int"/>
+            <xs:element minOccurs="0" name="itemsCd" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="applyDate" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="accessIp" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="accessPort" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="accessedIp" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="accessedPort" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="openStat" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="field1" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="field2" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="crTime" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="edTime" nillable="true" type="xs:dateTime"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

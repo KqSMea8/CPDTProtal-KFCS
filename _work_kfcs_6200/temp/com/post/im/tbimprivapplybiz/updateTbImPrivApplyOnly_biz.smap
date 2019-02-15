@@ -1,0 +1,17 @@
+SMAP
+updateTbImPrivApplyOnly_biz.java
+biz
+*S biz
+*F
++ 0 updateTbImPrivApplyOnly.bizx
+com/post/im/tbimprivapplybiz/updateTbImPrivApplyOnly.bizx
+*L
+370000:178
+2:360
+1:398,2
+10000:401
+40000:404
+70000:407
+190000:410
+400000:413
+*E

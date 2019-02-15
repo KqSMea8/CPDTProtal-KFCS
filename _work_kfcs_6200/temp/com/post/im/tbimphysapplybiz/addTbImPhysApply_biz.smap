@@ -1,0 +1,19 @@
+SMAP
+addTbImPhysApply_biz.java
+biz
+*S biz
+*F
++ 0 addTbImPhysApply.bizx
+com/post/im/tbimphysapplybiz/addTbImPhysApply.bizx
+*L
+370000:179
+370001:228
+2:410
+1:448,2
+10000:451
+40000:454
+70000:457
+70001:460
+190000:463
+400000:466
+*E

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns="com.post.tm.toolM.testToolSche" xmlns:sdo="commonj.sdo" xmlns:sdoJava="commonj.sdo/java" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="com.post.tm.toolM.testToolSche">
+    <xs:complexType name="TbTestToolsSche">
+        <xs:sequence>
+            <xs:any minOccurs="0"/>
+            <xs:element minOccurs="0" name="recId" nillable="true" type="xs:int"/>
+            <xs:element minOccurs="0" name="useToolNm" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="testItemsNm" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="sche" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="userNm" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="field1" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="field2" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="crTime" nillable="true" type="xs:dateTime"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

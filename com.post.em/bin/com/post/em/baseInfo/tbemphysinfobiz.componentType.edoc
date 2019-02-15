@@ -1,0 +1,26 @@
+<map>
+  <entry>
+    <string></string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;tbemphysinfobiz.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.tbemphysinfobiz&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.tbemphysinfobiz.queryTbEmPhysInfos(com.primeton.das.criteria.criteriaType, com.eos.foundation.PageCond, Int, Int)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;queryTbEmPhysInfos&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;queryTbEmPhysInfos&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.tbemphysinfobiz.queryTbEmPhysInfos&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;criteria(com.primeton.das.criteria.criteriaType):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;page(com.eos.foundation.PageCond):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageIndex(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageSize(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemphysinfos(com.post.em.baseInfo.phys.TbEmPhysInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;total(Int):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.tbemphysinfobiz.getTbEmPhysInfo(com.post.em.baseInfo.phys.TbEmPhysInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getTbEmPhysInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getTbEmPhysInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.tbemphysinfobiz.getTbEmPhysInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemphysinfo(com.post.em.baseInfo.phys.TbEmPhysInfo):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemphysinfo(com.post.em.baseInfo.phys.TbEmPhysInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.tbemphysinfobiz.deleteTbEmPhysInfos(com.post.em.baseInfo.phys.TbEmPhysInfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;deleteTbEmPhysInfos&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;deleteTbEmPhysInfos&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.tbemphysinfobiz.deleteTbEmPhysInfos&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemphysinfos(com.post.em.baseInfo.phys.TbEmPhysInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.tbemphysinfobiz.updateTbEmPhysInfo(com.post.em.baseInfo.phys.TbEmPhysInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateTbEmPhysInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateTbEmPhysInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.tbemphysinfobiz.updateTbEmPhysInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemphysinfo(com.post.em.baseInfo.phys.TbEmPhysInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.tbemphysinfobiz.addTbEmPhysInfo(com.post.em.baseInfo.phys.TbEmPhysInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;addTbEmPhysInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;addTbEmPhysInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.tbemphysinfobiz.addTbEmPhysInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemphysinfo(com.post.em.baseInfo.phys.TbEmPhysInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

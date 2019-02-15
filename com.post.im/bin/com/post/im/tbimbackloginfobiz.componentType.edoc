@@ -1,0 +1,26 @@
+<map>
+  <entry>
+    <string></string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;tbimbackloginfobiz.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimbackloginfobiz&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimbackloginfobiz.updateTbImBacklogInfo(com.post.im.backlog.backlog.TbImBacklogInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateTbImBacklogInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateTbImBacklogInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimbackloginfobiz.updateTbImBacklogInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimbackloginfo(com.post.im.backlog.backlog.TbImBacklogInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimbackloginfobiz.addTbImBacklogInfo(com.post.im.backlog.backlog.TbImBacklogInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;addTbImBacklogInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;addTbImBacklogInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimbackloginfobiz.addTbImBacklogInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimbackloginfo(com.post.im.backlog.backlog.TbImBacklogInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimbackloginfobiz.queryTbImBacklogInfos(com.primeton.das.criteria.criteriaType, com.eos.foundation.PageCond, Int, Int)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;queryTbImBacklogInfos&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;queryTbImBacklogInfos&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimbackloginfobiz.queryTbImBacklogInfos&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;criteria(com.primeton.das.criteria.criteriaType):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;page(com.eos.foundation.PageCond):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageIndex(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageSize(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimbackloginfos(com.post.im.backlog.backlog.TbImBacklogInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;total(Int):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimbackloginfobiz.getTbImBacklogInfo(com.post.im.backlog.backlog.TbImBacklogInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getTbImBacklogInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getTbImBacklogInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimbackloginfobiz.getTbImBacklogInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimbackloginfo(com.post.im.backlog.backlog.TbImBacklogInfo):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimbackloginfo(com.post.im.backlog.backlog.TbImBacklogInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimbackloginfobiz.deleteTbImBacklogInfos(com.post.im.backlog.backlog.TbImBacklogInfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;deleteTbImBacklogInfos&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;deleteTbImBacklogInfos&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimbackloginfobiz.deleteTbImBacklogInfos&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimbackloginfos(com.post.im.backlog.backlog.TbImBacklogInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

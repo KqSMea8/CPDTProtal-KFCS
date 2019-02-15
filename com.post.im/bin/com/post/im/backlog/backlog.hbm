@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class dynamic-insert="true" dynamic-update="true" entity-name="com.post.im.backlog.backlog.TbImBacklogInfo" table="tb_im_backlog_info">
+        <tuplizer class="com.primeton.server.das.tuplizer.SDOEntityTuplizer" entity-mode="sdo"/>
+        <id name="recId" type="int">
+            <column name="rec_id"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="resourceId" type="int">
+            <column name="resource_id" not-null="true"/>
+        </property>
+        <property name="todoType" type="string">
+            <column length="2" name="todo_type" not-null="true"/>
+        </property>
+        <property name="todoTitle" type="string">
+            <column length="1" name="todo_title" not-null="true"/>
+        </property>
+        <property name="itemsCd" type="string">
+            <column length="16" name="items_cd" not-null="true"/>
+        </property>
+        <property name="applyDate" type="date">
+            <column name="apply_date" not-null="true"/>
+        </property>
+        <property name="detailUrl" type="string">
+            <column length="64" name="detail_url" not-null="true"/>
+        </property>
+        <property name="userId" type="string">
+            <column length="64" name="user_id" not-null="true"/>
+        </property>
+        <property name="backlogUser" type="string">
+            <column length="64" name="backlog_user"/>
+        </property>
+        <property name="backlogRole" type="string">
+            <column length="64" name="backlog_role"/>
+        </property>
+        <property name="handleTime" type="date">
+            <column name="handle_time"/>
+        </property>
+        <property name="openStat" type="string">
+            <column length="2" name="open_stat" not-null="true"/>
+        </property>
+        <property name="field1" type="string">
+            <column length="64" name="field1"/>
+        </property>
+        <property name="field2" type="string">
+            <column length="64" name="field2"/>
+        </property>
+        <property name="edTime" type="timestamp">
+            <column name="ed_time"/>
+        </property>
+    </class>
+</hibernate-mapping>

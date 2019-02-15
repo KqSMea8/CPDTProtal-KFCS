@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- author:zhoujl -->
+<sqlMap>
+    <select id="select_id" parameterClass="java.util.HashMap" resultClass="com.post.tm.toolM.testToolSche.TbTestToolsSche">
+    	select 
+    		rec_id,
+    		use_tool_nm,
+    		test_items_nm,
+    		sche,
+    		user_nm 
+    	from 
+    		tb_test_tools_sche 
+    	where 
+    		sche 
+    	between 
+    		#begin# 
+    	and 
+    		#end# 
+    </select>
+</sqlMap>

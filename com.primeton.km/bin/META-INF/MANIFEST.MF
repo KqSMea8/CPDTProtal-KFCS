@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Require-Bundle: com.primeton.eos.richweb,com.eos.foundation,com.eos.wo
+ rkflow
+eos-webCtxPath: km
+Bundle-Vendor: Administrator
+Bundle-Version: 1.0.0
+Bundle-Name: com.primeton.km
+Bundle-Description: 知识库
+Bundle-SymbolicName: com.primeton.km
+

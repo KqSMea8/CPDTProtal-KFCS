@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- author:Administrator -->
+<sqlMap>
+    <parameterMap class="java.lang.Integer" id="parameterMap">
+        <parameter javaType="int" jdbcType="int" property="resourceId"/>
+    </parameterMap>
+    <resultMap class="java.lang.String" id="resultMap">
+        <result column="rec_id" javaType="int" property="recId"/>
+    </resultMap>
+    <select id="selectRecIdByResourceId" parameterClass="java.lang.Integer" resultClass="java.lang.Integer">
+		select rec_Id from tb_im_backlog_info where resource_id = #resourceId#
+    </select>
+</sqlMap>

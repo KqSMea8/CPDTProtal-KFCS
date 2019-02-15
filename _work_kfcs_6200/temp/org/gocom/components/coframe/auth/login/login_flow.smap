@@ -1,0 +1,16 @@
+SMAP
+login_flow.java
+flow
+*S flow
+*F
++ 0 login.flowx
+org/gocom/components/coframe/auth/login/login.flowx
+*L
+10000:286
+1:287,2
+190000:290,5
+40000:296,3
+40001:300,3
+10000:308
+310000:313
+*E

@@ -1,0 +1,26 @@
+<map>
+  <entry>
+    <string>com.post.im.itemsM.ItemsTeamManager.queryItemsUserList(java.lang.String, commonj.sdo.DataObject)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;DataObject[] com.post.im.itemsM.ItemsTeamManager.queryItemsUserList(String itemsCd, DataObject pageCond)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 通过项目ID获取项目对应的人员信息&#x0D;
+ &#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;date&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.itemsM.ItemsTeamManager.updateItemsUser(commonj.sdo.DataObject)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;void com.post.im.itemsM.ItemsTeamManager.updateItemsUser(DataObject date)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 对项目组指定项目成员&#x0D;
+ &#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;str&lt;/b&gt;&#x0D;
+            入参Json串&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.itemsM.ItemsTeamManager.updateItemsManager(java.lang.String, commonj.sdo.DataObject)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;String com.post.im.itemsM.ItemsTeamManager.updateItemsManager(String str, DataObject date)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 对项目组指定项目成员&#x0D;
+ &#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;str&lt;/b&gt;&#x0D;
+            入参Json串&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>ItemsTeamManager</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;com.post.im.itemsM.ItemsTeamManager&lt;/b&gt;&lt;br/&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Require-Bundle: com.primeton.eos.richweb,com.eos.foundation,com.eos.wo
+ rkflow
+eos-webCtxPath: bm
+Bundle-Vendor: Administrator
+Bundle-Version: 1.0.0
+Bundle-Name: com.post.bm
+Bundle-Description: 缺陷管理
+Bundle-SymbolicName: com.post.bm
+

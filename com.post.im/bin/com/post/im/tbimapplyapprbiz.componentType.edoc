@@ -1,0 +1,26 @@
+<map>
+  <entry>
+    <string></string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;tbimapplyapprbiz.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimapplyapprbiz&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimapplyapprbiz.deleteTbImApplyApprs(com.post.im.resourceM.appr.appr.TbImApplyAppr[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;deleteTbImApplyApprs&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;deleteTbImApplyApprs&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimapplyapprbiz.deleteTbImApplyApprs&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimapplyapprs(com.post.im.resourceM.appr.appr.TbImApplyAppr[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimapplyapprbiz.getTbImApplyAppr(com.post.im.resourceM.appr.appr.TbImApplyAppr)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getTbImApplyAppr&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getTbImApplyAppr&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimapplyapprbiz.getTbImApplyAppr&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimapplyappr(com.post.im.resourceM.appr.appr.TbImApplyAppr):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimapplyappr(com.post.im.resourceM.appr.appr.TbImApplyAppr):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimapplyapprbiz.updateTbImApplyAppr(com.post.im.resourceM.appr.appr.TbImApplyAppr)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateTbImApplyAppr&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateTbImApplyAppr&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimapplyapprbiz.updateTbImApplyAppr&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimapplyappr(com.post.im.resourceM.appr.appr.TbImApplyAppr):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimapplyapprbiz.queryTbImApplyApprs(com.primeton.das.criteria.criteriaType, com.eos.foundation.PageCond, Int, Int)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;queryTbImApplyApprs&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;queryTbImApplyApprs&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimapplyapprbiz.queryTbImApplyApprs&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;criteria(com.primeton.das.criteria.criteriaType):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;page(com.eos.foundation.PageCond):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageIndex(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageSize(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimapplyapprs(com.post.im.resourceM.appr.appr.TbImApplyAppr[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;total(Int):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimapplyapprbiz.addTbImApplyAppr(com.post.im.resourceM.appr.appr.TbImApplyAppr)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;addTbImApplyAppr&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;addTbImApplyAppr&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimapplyapprbiz.addTbImApplyAppr&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimapplyappr(com.post.im.resourceM.appr.appr.TbImApplyAppr):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

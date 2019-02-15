@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class dynamic-insert="true" dynamic-update="true" entity-name="com.post.im.resourceM.net.net.TbImNetApply" table="tb_im_net_apply">
+        <tuplizer class="com.primeton.server.das.tuplizer.SDOEntityTuplizer" entity-mode="sdo"/>
+        <id name="recId" type="int">
+            <column name="rec_id"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="itemsCd" type="string">
+            <column length="16" name="items_cd" not-null="true"/>
+        </property>
+        <property name="userId" type="string">
+            <column length="64" name="user_id" not-null="true"/>
+        </property>
+        <property name="applyDate" type="date">
+            <column name="apply_date" not-null="true"/>
+        </property>
+        <property name="accessIp" type="string">
+            <column length="16" name="access_ip" not-null="true"/>
+        </property>
+        <property name="accessPort" type="string">
+            <column length="5" name="access_port" not-null="true"/>
+        </property>
+        <property name="accessedIp" type="string">
+            <column length="16" name="accessed_ip" not-null="true"/>
+        </property>
+        <property name="accessedPort" type="string">
+            <column length="5" name="accessed_port" not-null="true"/>
+        </property>
+        <property name="openStat" type="string">
+            <column length="2" name="open_stat"/>
+        </property>
+        <property name="remark" type="string">
+            <column length="128" name="remark"/>
+        </property>
+        <property name="field1" type="string">
+            <column length="64" name="field1"/>
+        </property>
+        <property name="field2" type="string">
+            <column length="64" name="field2"/>
+        </property>
+        <property name="crTime" type="timestamp">
+            <column name="cr_time"/>
+        </property>
+        <property name="edTime" type="timestamp">
+            <column name="ed_time" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="com.post.tm.toolM.testToolSche">
+    <select id="select_id" parameterClass="java.util.HashMap" resultClass="com.post.tm.toolM.testToolSche.TbTestToolsSche">select 
+    		rec_id,
+    		use_tool_nm,
+    		test_items_nm,
+    		sche,
+    		user_nm 
+    	from 
+    		tb_test_tools_sche 
+    	where 
+    		sche 
+    	between 
+    		#begin# 
+    	and 
+    		#end#</select>
+</sqlMap>

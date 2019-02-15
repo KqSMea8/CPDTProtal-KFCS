@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Require-Bundle: com.post.im,com.primeton.eos.richweb,com.eos.foundatio
+ n,com.eos.workflow
+Bundle-Vendor: Administrator
+eos-webCtxPath: filter
+Bundle-Version: 1.0.0
+Bundle-Name: com.post.filter
+Bundle-Description: 
+Bundle-SymbolicName: com.post.filter
+

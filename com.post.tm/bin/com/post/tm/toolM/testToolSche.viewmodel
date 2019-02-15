@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<viewModelSet author="zhoujl" displayName="testToolSche" id="com.post.tm.toolM.testToolSche">
+    <viewModel author="zhoujl" displayName="TbTestToolsSche" entityName="com.post.tm.toolM.testToolSche.TbTestToolsSche" id="TbTestToolsSche">
+        <field dataType="Int" dict="false" entityField="recId" id="recId" label="recId">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="String" dict="false" entityField="useToolNm" id="useToolNm" label="使用工具名称">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="String" dict="false" entityField="testItemsNm" id="testItemsNm" label="测试项目名称">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="String" dict="false" entityField="sche" id="sche" label="排期">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="String" dict="false" entityField="userNm" id="userNm" label="使用人员名称">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="String" dict="false" entityField="field1" id="field1" label="备用字段1">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="String" dict="false" entityField="field2" id="field2" label="备用字段2">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="Date" dict="false" entityField="crTime" id="crTime" label="创建日期">
+            <view type="write"/>
+            <edit name="" type="date"/>
+        </field>
+    </viewModel>
+</viewModelSet>

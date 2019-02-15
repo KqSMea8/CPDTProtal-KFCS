@@ -1,0 +1,26 @@
+<map>
+  <entry>
+    <string>com.post.dpm.tbbpmdepleninfobiz.deleteTbBpmDeplEninfos(com.post.dpm.deplEnviInfo.TbBpmDeplEninfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;deleteTbBpmDeplEninfos&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;deleteTbBpmDeplEninfos&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.dpm.tbbpmdepleninfobiz.deleteTbBpmDeplEninfos&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbbpmdepleninfos(com.post.dpm.deplEnviInfo.TbBpmDeplEninfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string></string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;tbbpmdepleninfobiz.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.dpm.tbbpmdepleninfobiz&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.dpm.tbbpmdepleninfobiz.queryTbBpmDeplEninfos(com.primeton.das.criteria.criteriaType, com.eos.foundation.PageCond, Int, Int)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;queryTbBpmDeplEninfos&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;queryTbBpmDeplEninfos&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.dpm.tbbpmdepleninfobiz.queryTbBpmDeplEninfos&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;criteria(com.primeton.das.criteria.criteriaType):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;page(com.eos.foundation.PageCond):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageIndex(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageSize(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbbpmdepleninfos(com.post.dpm.deplEnviInfo.TbBpmDeplEninfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;total(Int):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.dpm.tbbpmdepleninfobiz.updateTbBpmDeplEninfo(com.post.dpm.deplEnviInfo.TbBpmDeplEninfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateTbBpmDeplEninfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateTbBpmDeplEninfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.dpm.tbbpmdepleninfobiz.updateTbBpmDeplEninfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbbpmdepleninfo(com.post.dpm.deplEnviInfo.TbBpmDeplEninfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.dpm.tbbpmdepleninfobiz.getTbBpmDeplEninfo(com.post.dpm.deplEnviInfo.TbBpmDeplEninfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getTbBpmDeplEninfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getTbBpmDeplEninfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.dpm.tbbpmdepleninfobiz.getTbBpmDeplEninfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbbpmdepleninfo(com.post.dpm.deplEnviInfo.TbBpmDeplEninfo):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbbpmdepleninfo(com.post.dpm.deplEnviInfo.TbBpmDeplEninfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.dpm.tbbpmdepleninfobiz.addTbBpmDeplEninfo(com.post.dpm.deplEnviInfo.TbBpmDeplEninfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;addTbBpmDeplEninfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;addTbBpmDeplEninfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.dpm.tbbpmdepleninfobiz.addTbBpmDeplEninfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbbpmdepleninfo(com.post.dpm.deplEnviInfo.TbBpmDeplEninfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

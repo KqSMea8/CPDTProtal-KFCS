@@ -1,0 +1,402 @@
+[BPS Process Server][2019-01-10 10:31:37,791][INFO] Start BPS Process Server !
+[BPS Process Server][2019-01-10 10:31:38,017][INFO] BPS multi-tenancy mode is false
+[BPS Process Server][2019-01-10 10:31:38,018][DEBUG] Initialize BPS Process Server  All Service
+[BPS Process Server][2019-01-10 10:31:38,411][DEBUG] Lock Service Type:LOCAL
+[BPS Process Server][2019-01-10 10:31:38,444][DEBUG] !!!!Here need be configed
+[BPS Process Server][2019-01-10 10:31:38,448][DEBUG] Local LRU size:3000
+[BPS Process Server][2019-01-10 10:31:38,451][DEBUG] Using lru instance pool!
+[BPS Process Server][2019-01-10 10:31:38,451][DEBUG] Not Load on startup,Load process when needed.
+[BPS Process Server][2019-01-10 10:31:38,452][DEBUG] Init agent_from cache ,cluster is :false
+[BPS Process Server][2019-01-10 10:31:38,458][DEBUG] TX Monitor:false
+[BPS Process Server][2019-01-10 10:31:38,459][DEBUG] SQL Monitor:false
+[BPS Process Server][2019-01-10 10:31:38,459][INFO] BPS Cluster Framework is False !
+[BPS Process Server][2019-01-10 10:31:38,812][DEBUG] Init Task Message Handler
+[BPS Process Server][2019-01-10 10:31:38,817][DEBUG] Setup BPS Process Server History Data
+[BPS Process Server][2019-01-10 10:31:38,818][DEBUG] Transportation strategy:NEVER
+[BPS Process Server][2019-01-10 10:31:38,842][DEBUG] BPS Timer Service startup . 
+[BPS Process Server][2019-01-10 10:31:38,847][DEBUG] Add web service invoke interceptor
+[BPS Process Server][2019-01-10 10:31:38,860][INFO] Initialize BPS bizResource module successful . 
+[BPS Process Server][2019-01-10 10:31:38,898][INFO] Server instance simulator start complete 
+[BPS Process Server][2019-01-10 10:31:38,947][INFO]  Task resource scheduler model start complete 
+[BPS Process Server][2019-01-10 10:31:38,952][INFO] BPS Process Server start up in 1185 ms
+[BPS Process Server][2019-01-10 10:31:38,955][INFO] BPS Message Framework is False !
+[BPS Process Server][2019-01-10 10:34:38,865][INFO] Timer trig first:180000 3000
+[BPS Process Server][2019-01-10 11:12:42,555][INFO] Start BPS Process Server !
+[BPS Process Server][2019-01-10 11:12:42,701][INFO] BPS multi-tenancy mode is false
+[BPS Process Server][2019-01-10 11:12:42,701][DEBUG] Initialize BPS Process Server  All Service
+[BPS Process Server][2019-01-10 11:12:42,973][DEBUG] Lock Service Type:LOCAL
+[BPS Process Server][2019-01-10 11:12:42,992][DEBUG] !!!!Here need be configed
+[BPS Process Server][2019-01-10 11:12:42,994][DEBUG] Local LRU size:3000
+[BPS Process Server][2019-01-10 11:12:42,995][DEBUG] Using lru instance pool!
+[BPS Process Server][2019-01-10 11:12:42,995][DEBUG] Not Load on startup,Load process when needed.
+[BPS Process Server][2019-01-10 11:12:42,995][DEBUG] Init agent_from cache ,cluster is :false
+[BPS Process Server][2019-01-10 11:12:43,001][DEBUG] TX Monitor:false
+[BPS Process Server][2019-01-10 11:12:43,001][DEBUG] SQL Monitor:false
+[BPS Process Server][2019-01-10 11:12:43,002][INFO] BPS Cluster Framework is False !
+[BPS Process Server][2019-01-10 11:12:43,499][DEBUG] Init Task Message Handler
+[BPS Process Server][2019-01-10 11:12:43,502][DEBUG] Setup BPS Process Server History Data
+[BPS Process Server][2019-01-10 11:12:43,502][DEBUG] Transportation strategy:NEVER
+[BPS Process Server][2019-01-10 11:12:43,514][DEBUG] BPS Timer Service startup . 
+[BPS Process Server][2019-01-10 11:12:43,517][DEBUG] Add web service invoke interceptor
+[BPS Process Server][2019-01-10 11:12:43,527][INFO] Initialize BPS bizResource module successful . 
+[BPS Process Server][2019-01-10 11:12:43,544][INFO] Server instance simulator start complete 
+[BPS Process Server][2019-01-10 11:12:43,572][INFO]  Task resource scheduler model start complete 
+[BPS Process Server][2019-01-10 11:12:43,574][INFO] BPS Process Server start up in 1032 ms
+[BPS Process Server][2019-01-10 11:12:43,576][INFO] BPS Message Framework is False !
+[BPS Process Server][2019-01-10 11:15:43,520][INFO] Timer trig first:180000 3000
+[BPS Process Server][2019-01-10 15:02:44,139][INFO] Start BPS Process Server !
+[BPS Process Server][2019-01-10 15:02:44,295][INFO] BPS multi-tenancy mode is false
+[BPS Process Server][2019-01-10 15:02:44,295][DEBUG] Initialize BPS Process Server  All Service
+[BPS Process Server][2019-01-10 15:02:44,574][DEBUG] Lock Service Type:LOCAL
+[BPS Process Server][2019-01-10 15:02:44,593][DEBUG] !!!!Here need be configed
+[BPS Process Server][2019-01-10 15:02:44,595][DEBUG] Local LRU size:3000
+[BPS Process Server][2019-01-10 15:02:44,596][DEBUG] Using lru instance pool!
+[BPS Process Server][2019-01-10 15:02:44,597][DEBUG] Not Load on startup,Load process when needed.
+[BPS Process Server][2019-01-10 15:02:44,597][DEBUG] Init agent_from cache ,cluster is :false
+[BPS Process Server][2019-01-10 15:02:44,603][DEBUG] TX Monitor:false
+[BPS Process Server][2019-01-10 15:02:44,603][DEBUG] SQL Monitor:false
+[BPS Process Server][2019-01-10 15:02:44,603][INFO] BPS Cluster Framework is False !
+[BPS Process Server][2019-01-10 15:02:45,119][DEBUG] Init Task Message Handler
+[BPS Process Server][2019-01-10 15:02:45,122][DEBUG] Setup BPS Process Server History Data
+[BPS Process Server][2019-01-10 15:02:45,122][DEBUG] Transportation strategy:NEVER
+[BPS Process Server][2019-01-10 15:02:45,135][DEBUG] BPS Timer Service startup . 
+[BPS Process Server][2019-01-10 15:02:45,139][DEBUG] Add web service invoke interceptor
+[BPS Process Server][2019-01-10 15:02:45,149][INFO] Initialize BPS bizResource module successful . 
+[BPS Process Server][2019-01-10 15:02:45,180][INFO] Server instance simulator start complete 
+[BPS Process Server][2019-01-10 15:02:45,211][INFO]  Task resource scheduler model start complete 
+[BPS Process Server][2019-01-10 15:02:45,214][INFO] BPS Process Server start up in 1101 ms
+[BPS Process Server][2019-01-10 15:02:45,216][INFO] BPS Message Framework is False !
+[BPS Process Server][2019-01-10 15:05:45,147][INFO] Timer trig first:180000 3000
+[BPS Process Server][2019-01-10 15:16:52,418][INFO] Start BPS Process Server !
+[BPS Process Server][2019-01-10 15:16:52,652][INFO] BPS multi-tenancy mode is false
+[BPS Process Server][2019-01-10 15:16:52,652][DEBUG] Initialize BPS Process Server  All Service
+[BPS Process Server][2019-01-10 15:16:52,957][DEBUG] Lock Service Type:LOCAL
+[BPS Process Server][2019-01-10 15:16:52,978][DEBUG] !!!!Here need be configed
+[BPS Process Server][2019-01-10 15:16:52,980][DEBUG] Local LRU size:3000
+[BPS Process Server][2019-01-10 15:16:52,981][DEBUG] Using lru instance pool!
+[BPS Process Server][2019-01-10 15:16:52,982][DEBUG] Not Load on startup,Load process when needed.
+[BPS Process Server][2019-01-10 15:16:52,982][DEBUG] Init agent_from cache ,cluster is :false
+[BPS Process Server][2019-01-10 15:16:52,988][DEBUG] TX Monitor:false
+[BPS Process Server][2019-01-10 15:16:52,988][DEBUG] SQL Monitor:false
+[BPS Process Server][2019-01-10 15:16:52,988][INFO] BPS Cluster Framework is False !
+[BPS Process Server][2019-01-10 15:16:53,523][DEBUG] Init Task Message Handler
+[BPS Process Server][2019-01-10 15:16:53,529][DEBUG] Setup BPS Process Server History Data
+[BPS Process Server][2019-01-10 15:16:53,531][DEBUG] Transportation strategy:NEVER
+[BPS Process Server][2019-01-10 15:16:53,555][DEBUG] BPS Timer Service startup . 
+[BPS Process Server][2019-01-10 15:16:53,561][DEBUG] Add web service invoke interceptor
+[BPS Process Server][2019-01-10 15:16:53,573][INFO] Initialize BPS bizResource module successful . 
+[BPS Process Server][2019-01-10 15:16:53,607][INFO] Server instance simulator start complete 
+[BPS Process Server][2019-01-10 15:16:53,644][INFO]  Task resource scheduler model start complete 
+[BPS Process Server][2019-01-10 15:16:53,647][INFO] BPS Process Server start up in 1254 ms
+[BPS Process Server][2019-01-10 15:16:53,649][INFO] BPS Message Framework is False !
+[BPS Process Server][2019-01-10 15:19:53,563][INFO] Timer trig first:180000 3000
+[BPS Process Server][2019-01-10 15:39:07,574][INFO] Start BPS Process Server !
+[BPS Process Server][2019-01-10 15:39:07,792][INFO] BPS multi-tenancy mode is false
+[BPS Process Server][2019-01-10 15:39:07,792][DEBUG] Initialize BPS Process Server  All Service
+[BPS Process Server][2019-01-10 15:39:08,112][DEBUG] Lock Service Type:LOCAL
+[BPS Process Server][2019-01-10 15:39:08,132][DEBUG] !!!!Here need be configed
+[BPS Process Server][2019-01-10 15:39:08,134][DEBUG] Local LRU size:3000
+[BPS Process Server][2019-01-10 15:39:08,135][DEBUG] Using lru instance pool!
+[BPS Process Server][2019-01-10 15:39:08,136][DEBUG] Not Load on startup,Load process when needed.
+[BPS Process Server][2019-01-10 15:39:08,136][DEBUG] Init agent_from cache ,cluster is :false
+[BPS Process Server][2019-01-10 15:39:08,144][DEBUG] TX Monitor:false
+[BPS Process Server][2019-01-10 15:39:08,144][DEBUG] SQL Monitor:false
+[BPS Process Server][2019-01-10 15:39:08,144][INFO] BPS Cluster Framework is False !
+[BPS Process Server][2019-01-10 15:39:08,689][DEBUG] Init Task Message Handler
+[BPS Process Server][2019-01-10 15:39:08,696][DEBUG] Setup BPS Process Server History Data
+[BPS Process Server][2019-01-10 15:39:08,698][DEBUG] Transportation strategy:NEVER
+[BPS Process Server][2019-01-10 15:39:08,715][DEBUG] BPS Timer Service startup . 
+[BPS Process Server][2019-01-10 15:39:08,717][DEBUG] Add web service invoke interceptor
+[BPS Process Server][2019-01-10 15:39:08,728][INFO] Initialize BPS bizResource module successful . 
+[BPS Process Server][2019-01-10 15:39:08,768][INFO] Server instance simulator start complete 
+[BPS Process Server][2019-01-10 15:39:08,801][INFO]  Task resource scheduler model start complete 
+[BPS Process Server][2019-01-10 15:39:08,804][INFO] BPS Process Server start up in 1251 ms
+[BPS Process Server][2019-01-10 15:39:08,807][INFO] BPS Message Framework is False !
+[BPS Process Server][2019-01-10 15:42:08,724][INFO] Timer trig first:180000 3000
+[BPS Process Server][2019-01-10 15:45:42,052][INFO] Start BPS Process Server !
+[BPS Process Server][2019-01-10 15:45:42,205][INFO] BPS multi-tenancy mode is false
+[BPS Process Server][2019-01-10 15:45:42,206][DEBUG] Initialize BPS Process Server  All Service
+[BPS Process Server][2019-01-10 15:45:42,477][DEBUG] Lock Service Type:LOCAL
+[BPS Process Server][2019-01-10 15:45:42,500][DEBUG] !!!!Here need be configed
+[BPS Process Server][2019-01-10 15:45:42,501][DEBUG] Local LRU size:3000
+[BPS Process Server][2019-01-10 15:45:42,503][DEBUG] Using lru instance pool!
+[BPS Process Server][2019-01-10 15:45:42,503][DEBUG] Not Load on startup,Load process when needed.
+[BPS Process Server][2019-01-10 15:45:42,503][DEBUG] Init agent_from cache ,cluster is :false
+[BPS Process Server][2019-01-10 15:45:42,511][DEBUG] TX Monitor:false
+[BPS Process Server][2019-01-10 15:45:42,511][DEBUG] SQL Monitor:false
+[BPS Process Server][2019-01-10 15:45:42,511][INFO] BPS Cluster Framework is False !
+[BPS Process Server][2019-01-10 15:45:43,094][DEBUG] Init Task Message Handler
+[BPS Process Server][2019-01-10 15:45:43,097][DEBUG] Setup BPS Process Server History Data
+[BPS Process Server][2019-01-10 15:45:43,099][DEBUG] Transportation strategy:NEVER
+[BPS Process Server][2019-01-10 15:45:43,114][DEBUG] BPS Timer Service startup . 
+[BPS Process Server][2019-01-10 15:45:43,117][DEBUG] Add web service invoke interceptor
+[BPS Process Server][2019-01-10 15:45:43,127][INFO] Initialize BPS bizResource module successful . 
+[BPS Process Server][2019-01-10 15:45:43,153][INFO] Server instance simulator start complete 
+[BPS Process Server][2019-01-10 15:45:43,186][INFO]  Task resource scheduler model start complete 
+[BPS Process Server][2019-01-10 15:45:43,189][INFO] BPS Process Server start up in 1153 ms
+[BPS Process Server][2019-01-10 15:45:43,191][INFO] BPS Message Framework is False !
+[BPS Process Server][2019-01-10 15:48:43,129][INFO] Timer trig first:180000 3000
+[BPS Process Server][2019-01-10 15:50:08,697][INFO] Start BPS Process Server !
+[BPS Process Server][2019-01-10 15:50:08,832][INFO] BPS multi-tenancy mode is false
+[BPS Process Server][2019-01-10 15:50:08,833][DEBUG] Initialize BPS Process Server  All Service
+[BPS Process Server][2019-01-10 15:50:09,124][DEBUG] Lock Service Type:LOCAL
+[BPS Process Server][2019-01-10 15:50:09,143][DEBUG] !!!!Here need be configed
+[BPS Process Server][2019-01-10 15:50:09,146][DEBUG] Local LRU size:3000
+[BPS Process Server][2019-01-10 15:50:09,147][DEBUG] Using lru instance pool!
+[BPS Process Server][2019-01-10 15:50:09,148][DEBUG] Not Load on startup,Load process when needed.
+[BPS Process Server][2019-01-10 15:50:09,148][DEBUG] Init agent_from cache ,cluster is :false
+[BPS Process Server][2019-01-10 15:50:09,154][DEBUG] TX Monitor:false
+[BPS Process Server][2019-01-10 15:50:09,154][DEBUG] SQL Monitor:false
+[BPS Process Server][2019-01-10 15:50:09,155][INFO] BPS Cluster Framework is False !
+[BPS Process Server][2019-01-10 15:50:09,665][DEBUG] Init Task Message Handler
+[BPS Process Server][2019-01-10 15:50:09,670][DEBUG] Setup BPS Process Server History Data
+[BPS Process Server][2019-01-10 15:50:09,671][DEBUG] Transportation strategy:NEVER
+[BPS Process Server][2019-01-10 15:50:09,684][DEBUG] BPS Timer Service startup . 
+[BPS Process Server][2019-01-10 15:50:09,687][DEBUG] Add web service invoke interceptor
+[BPS Process Server][2019-01-10 15:50:09,696][INFO] Initialize BPS bizResource module successful . 
+[BPS Process Server][2019-01-10 15:50:09,724][INFO] Server instance simulator start complete 
+[BPS Process Server][2019-01-10 15:50:09,755][INFO]  Task resource scheduler model start complete 
+[BPS Process Server][2019-01-10 15:50:09,758][INFO] BPS Process Server start up in 1074 ms
+[BPS Process Server][2019-01-10 15:50:09,760][INFO] BPS Message Framework is False !
+[BPS Process Server][2019-01-10 15:57:27,200][INFO] Start BPS Process Server !
+[BPS Process Server][2019-01-10 15:57:27,356][INFO] BPS multi-tenancy mode is false
+[BPS Process Server][2019-01-10 15:57:27,356][DEBUG] Initialize BPS Process Server  All Service
+[BPS Process Server][2019-01-10 15:57:27,654][DEBUG] Lock Service Type:LOCAL
+[BPS Process Server][2019-01-10 15:57:27,683][DEBUG] !!!!Here need be configed
+[BPS Process Server][2019-01-10 15:57:27,685][DEBUG] Local LRU size:3000
+[BPS Process Server][2019-01-10 15:57:27,686][DEBUG] Using lru instance pool!
+[BPS Process Server][2019-01-10 15:57:27,687][DEBUG] Not Load on startup,Load process when needed.
+[BPS Process Server][2019-01-10 15:57:27,687][DEBUG] Init agent_from cache ,cluster is :false
+[BPS Process Server][2019-01-10 15:57:27,694][DEBUG] TX Monitor:false
+[BPS Process Server][2019-01-10 15:57:27,694][DEBUG] SQL Monitor:false
+[BPS Process Server][2019-01-10 15:57:27,694][INFO] BPS Cluster Framework is False !
+[BPS Process Server][2019-01-10 15:57:28,268][DEBUG] Init Task Message Handler
+[BPS Process Server][2019-01-10 15:57:28,273][DEBUG] Setup BPS Process Server History Data
+[BPS Process Server][2019-01-10 15:57:28,274][DEBUG] Transportation strategy:NEVER
+[BPS Process Server][2019-01-10 15:57:28,291][DEBUG] BPS Timer Service startup . 
+[BPS Process Server][2019-01-10 15:57:28,294][DEBUG] Add web service invoke interceptor
+[BPS Process Server][2019-01-10 15:57:28,304][INFO] Initialize BPS bizResource module successful . 
+[BPS Process Server][2019-01-10 15:57:28,333][INFO] Server instance simulator start complete 
+[BPS Process Server][2019-01-10 15:57:28,364][INFO]  Task resource scheduler model start complete 
+[BPS Process Server][2019-01-10 15:57:28,367][INFO] BPS Process Server start up in 1181 ms
+[BPS Process Server][2019-01-10 15:57:28,369][INFO] BPS Message Framework is False !
+[BPS Process Server][2019-01-10 16:17:46,581][INFO] Start BPS Process Server !
+[BPS Process Server][2019-01-10 16:17:46,742][INFO] BPS multi-tenancy mode is false
+[BPS Process Server][2019-01-10 16:17:46,743][DEBUG] Initialize BPS Process Server  All Service
+[BPS Process Server][2019-01-10 16:17:47,044][DEBUG] Lock Service Type:LOCAL
+[BPS Process Server][2019-01-10 16:17:47,064][DEBUG] !!!!Here need be configed
+[BPS Process Server][2019-01-10 16:17:47,066][DEBUG] Local LRU size:3000
+[BPS Process Server][2019-01-10 16:17:47,067][DEBUG] Using lru instance pool!
+[BPS Process Server][2019-01-10 16:17:47,067][DEBUG] Not Load on startup,Load process when needed.
+[BPS Process Server][2019-01-10 16:17:47,068][DEBUG] Init agent_from cache ,cluster is :false
+[BPS Process Server][2019-01-10 16:17:47,075][DEBUG] TX Monitor:false
+[BPS Process Server][2019-01-10 16:17:47,075][DEBUG] SQL Monitor:false
+[BPS Process Server][2019-01-10 16:17:47,076][INFO] BPS Cluster Framework is False !
+[BPS Process Server][2019-01-10 16:17:47,626][DEBUG] Init Task Message Handler
+[BPS Process Server][2019-01-10 16:17:47,629][DEBUG] Setup BPS Process Server History Data
+[BPS Process Server][2019-01-10 16:17:47,630][DEBUG] Transportation strategy:NEVER
+[BPS Process Server][2019-01-10 16:17:47,644][DEBUG] BPS Timer Service startup . 
+[BPS Process Server][2019-01-10 16:17:47,647][DEBUG] Add web service invoke interceptor
+[BPS Process Server][2019-01-10 16:17:47,657][INFO] Initialize BPS bizResource module successful . 
+[BPS Process Server][2019-01-10 16:17:47,678][INFO] Server instance simulator start complete 
+[BPS Process Server][2019-01-10 16:17:47,710][INFO]  Task resource scheduler model start complete 
+[BPS Process Server][2019-01-10 16:17:47,713][INFO] BPS Process Server start up in 1147 ms
+[BPS Process Server][2019-01-10 16:17:47,715][INFO] BPS Message Framework is False !
+[BPS Process Server][2019-01-12 11:28:31,521][INFO] Start BPS Process Server !
+[BPS Process Server][2019-01-12 11:28:31,821][INFO] BPS multi-tenancy mode is false
+[BPS Process Server][2019-01-12 11:28:31,821][DEBUG] Initialize BPS Process Server  All Service
+[BPS Process Server][2019-01-12 11:28:32,515][DEBUG] Lock Service Type:LOCAL
+[BPS Process Server][2019-01-12 11:28:32,579][DEBUG] !!!!Here need be configed
+[BPS Process Server][2019-01-12 11:28:32,582][DEBUG] Local LRU size:3000
+[BPS Process Server][2019-01-12 11:28:32,586][DEBUG] Using lru instance pool!
+[BPS Process Server][2019-01-12 11:28:32,587][DEBUG] Not Load on startup,Load process when needed.
+[BPS Process Server][2019-01-12 11:28:32,587][DEBUG] Init agent_from cache ,cluster is :false
+[BPS Process Server][2019-01-12 11:28:32,603][DEBUG] TX Monitor:false
+[BPS Process Server][2019-01-12 11:28:32,603][DEBUG] SQL Monitor:false
+[BPS Process Server][2019-01-12 11:28:32,604][INFO] BPS Cluster Framework is False !
+[BPS Process Server][2019-01-12 11:28:33,509][DEBUG] Init Task Message Handler
+[BPS Process Server][2019-01-12 11:28:33,513][DEBUG] Setup BPS Process Server History Data
+[BPS Process Server][2019-01-12 11:28:33,513][DEBUG] Transportation strategy:NEVER
+[BPS Process Server][2019-01-12 11:28:33,557][DEBUG] BPS Timer Service startup . 
+[BPS Process Server][2019-01-12 11:28:33,564][DEBUG] Add web service invoke interceptor
+[BPS Process Server][2019-01-12 11:28:33,591][INFO] Initialize BPS bizResource module successful . 
+[BPS Process Server][2019-01-12 11:28:33,632][INFO] Server instance simulator start complete 
+[BPS Process Server][2019-01-12 11:28:33,717][INFO]  Task resource scheduler model start complete 
+[BPS Process Server][2019-01-12 11:28:33,725][INFO] BPS Process Server start up in 2244 ms
+[BPS Process Server][2019-01-12 11:28:33,729][INFO] BPS Message Framework is False !
+[BPS Process Server][2019-01-12 11:31:21,936][INFO] Start BPS Process Server !
+[BPS Process Server][2019-01-12 11:31:22,365][INFO] BPS multi-tenancy mode is false
+[BPS Process Server][2019-01-12 11:31:22,366][DEBUG] Initialize BPS Process Server  All Service
+[BPS Process Server][2019-01-12 11:31:23,826][DEBUG] Lock Service Type:LOCAL
+[BPS Process Server][2019-01-12 11:31:23,904][DEBUG] !!!!Here need be configed
+[BPS Process Server][2019-01-12 11:31:23,909][DEBUG] Local LRU size:3000
+[BPS Process Server][2019-01-12 11:31:23,913][DEBUG] Using lru instance pool!
+[BPS Process Server][2019-01-12 11:31:23,913][DEBUG] Not Load on startup,Load process when needed.
+[BPS Process Server][2019-01-12 11:31:23,914][DEBUG] Init agent_from cache ,cluster is :false
+[BPS Process Server][2019-01-12 11:31:23,935][DEBUG] TX Monitor:false
+[BPS Process Server][2019-01-12 11:31:23,935][DEBUG] SQL Monitor:false
+[BPS Process Server][2019-01-12 11:31:23,936][INFO] BPS Cluster Framework is False !
+[BPS Process Server][2019-01-12 11:31:24,602][DEBUG] Init Task Message Handler
+[BPS Process Server][2019-01-12 11:31:24,606][DEBUG] Setup BPS Process Server History Data
+[BPS Process Server][2019-01-12 11:31:24,624][DEBUG] Transportation strategy:NEVER
+[BPS Process Server][2019-01-12 11:31:24,702][DEBUG] BPS Timer Service startup . 
+[BPS Process Server][2019-01-12 11:31:24,718][DEBUG] Add web service invoke interceptor
+[BPS Process Server][2019-01-12 11:31:24,749][INFO] Initialize BPS bizResource module successful . 
+[BPS Process Server][2019-01-12 11:31:24,959][INFO] Server instance simulator start complete 
+[BPS Process Server][2019-01-12 11:31:25,063][INFO]  Task resource scheduler model start complete 
+[BPS Process Server][2019-01-12 11:31:25,076][INFO] BPS Process Server start up in 3179 ms
+[BPS Process Server][2019-01-12 11:31:25,084][INFO] BPS Message Framework is False !
+[BPS Process Server][2019-01-12 11:35:23,785][INFO] Start BPS Process Server !
+[BPS Process Server][2019-01-12 11:35:24,075][INFO] BPS multi-tenancy mode is false
+[BPS Process Server][2019-01-12 11:35:24,075][DEBUG] Initialize BPS Process Server  All Service
+[BPS Process Server][2019-01-12 11:35:24,764][DEBUG] Lock Service Type:LOCAL
+[BPS Process Server][2019-01-12 11:35:24,829][DEBUG] !!!!Here need be configed
+[BPS Process Server][2019-01-12 11:35:24,833][DEBUG] Local LRU size:3000
+[BPS Process Server][2019-01-12 11:35:24,836][DEBUG] Using lru instance pool!
+[BPS Process Server][2019-01-12 11:35:24,837][DEBUG] Not Load on startup,Load process when needed.
+[BPS Process Server][2019-01-12 11:35:24,837][DEBUG] Init agent_from cache ,cluster is :false
+[BPS Process Server][2019-01-12 11:35:24,858][DEBUG] TX Monitor:false
+[BPS Process Server][2019-01-12 11:35:24,860][DEBUG] SQL Monitor:false
+[BPS Process Server][2019-01-12 11:35:24,860][INFO] BPS Cluster Framework is False !
+[BPS Process Server][2019-01-12 11:35:25,728][DEBUG] Init Task Message Handler
+[BPS Process Server][2019-01-12 11:35:25,746][DEBUG] Setup BPS Process Server History Data
+[BPS Process Server][2019-01-12 11:35:25,749][DEBUG] Transportation strategy:NEVER
+[BPS Process Server][2019-01-12 11:35:25,786][DEBUG] BPS Timer Service startup . 
+[BPS Process Server][2019-01-12 11:35:25,786][DEBUG] Add web service invoke interceptor
+[BPS Process Server][2019-01-12 11:35:25,814][INFO] Initialize BPS bizResource module successful . 
+[BPS Process Server][2019-01-12 11:35:25,865][INFO] Server instance simulator start complete 
+[BPS Process Server][2019-01-12 11:35:25,936][INFO]  Task resource scheduler model start complete 
+[BPS Process Server][2019-01-12 11:35:25,944][INFO] BPS Process Server start up in 2200 ms
+[BPS Process Server][2019-01-12 11:35:25,948][INFO] BPS Message Framework is False !
+[BPS Process Server][2019-01-12 11:38:25,827][INFO] Timer trig first:180000 3000
+[BPS Process Server][2019-01-12 16:27:51,261][INFO] Start BPS Process Server !
+[BPS Process Server][2019-01-12 16:27:51,567][INFO] BPS multi-tenancy mode is false
+[BPS Process Server][2019-01-12 16:27:51,568][DEBUG] Initialize BPS Process Server  All Service
+[BPS Process Server][2019-01-12 16:27:52,275][DEBUG] Lock Service Type:LOCAL
+[BPS Process Server][2019-01-12 16:27:52,349][DEBUG] !!!!Here need be configed
+[BPS Process Server][2019-01-12 16:27:52,353][DEBUG] Local LRU size:3000
+[BPS Process Server][2019-01-12 16:27:52,356][DEBUG] Using lru instance pool!
+[BPS Process Server][2019-01-12 16:27:52,357][DEBUG] Not Load on startup,Load process when needed.
+[BPS Process Server][2019-01-12 16:27:52,357][DEBUG] Init agent_from cache ,cluster is :false
+[BPS Process Server][2019-01-12 16:27:52,372][DEBUG] TX Monitor:false
+[BPS Process Server][2019-01-12 16:27:52,372][DEBUG] SQL Monitor:false
+[BPS Process Server][2019-01-12 16:27:52,372][INFO] BPS Cluster Framework is False !
+[BPS Process Server][2019-01-12 16:27:53,247][DEBUG] Init Task Message Handler
+[BPS Process Server][2019-01-12 16:27:53,261][DEBUG] Setup BPS Process Server History Data
+[BPS Process Server][2019-01-12 16:27:53,264][DEBUG] Transportation strategy:NEVER
+[BPS Process Server][2019-01-12 16:27:53,297][DEBUG] BPS Timer Service startup . 
+[BPS Process Server][2019-01-12 16:27:53,305][DEBUG] Add web service invoke interceptor
+[BPS Process Server][2019-01-12 16:27:53,332][INFO] Initialize BPS bizResource module successful . 
+[BPS Process Server][2019-01-12 16:27:53,556][INFO] Server instance simulator start complete 
+[BPS Process Server][2019-01-12 16:27:53,634][INFO]  Task resource scheduler model start complete 
+[BPS Process Server][2019-01-12 16:27:53,641][INFO] BPS Process Server start up in 2417 ms
+[BPS Process Server][2019-01-12 16:27:53,645][INFO] BPS Message Framework is False !
+[BPS Process Server][2019-01-12 16:30:53,301][INFO] Timer trig first:180000 3000
+[BPS Process Server][2019-01-12 16:36:21,494][INFO] Start BPS Process Server !
+[BPS Process Server][2019-01-12 16:36:22,488][INFO] BPS Process Server start failed!!
+ErrCode: 21000000
+Message: NULL
+	at com.primeton.workflow.api.listener.WFStartUpListenerBase.loadFinished(WFStartUpListenerBase.java:583)
+	at com.primeton.workflow.api.listener.WFStartUpListenerChain.loadFinished(WFStartUpListenerChain.java:90)
+	at com.primeton.workflow.api.listener.WFStartUpListener.loadFinished(WFStartUpListener.java:112)
+	at com.primeton.runtime.resource.impl.ContributionListenerManager.fireLoadFinish(ContributionListenerManager.java:100)
+	at com.primeton.runtime.resource.impl.ResourceNotify.contributionLoadFinishNofity(ResourceNotify.java:403)
+	at com.primeton.runtime.resource.impl.ResourceNotify.notifyResource(ResourceNotify.java:109)
+	at com.primeton.runtime.resource.impl.ApplicationResourceLoaderManager.loadApplicationResource(ApplicationResourceLoaderManager.java:38)
+	at com.primeton.ext.runtime.resource.startup.ResourceLoaderStartUpListener.start(ResourceLoaderStartUpListener.java:36)
+	at com.primeton.runtime.core.impl.RuntimeListenerManagerImpl.startListener(RuntimeListenerManagerImpl.java:43)
+	at com.primeton.ext.runtime.core.RuntimeManager.start(RuntimeManager.java:55)
+	at com.primeton.ext.runtime.core.RuntimeJ2EEHost.contextInitialized(RuntimeJ2EEHost.java:52)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5003)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5517)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: ErrCode: 21000000
+Message: (BPS WFSystemInfo Table not exist or version information is incorrect:[e2aba7b2d801000][192.168.197.233:3306][drds_bkgyl_kf_jhgl]ERR-CODE: [TDDL-4007][ERR_CANNOT_FETCH_TABLE_META] Table 'WFSYSTEMINFO' metadata cannot be fetched because Table 'drds_bkgyl_kf_jhgl_chxc_0000.wfsysteminfo' doesn't exist. More: [http://middleware.alibaba-inc.com/faq/faqByFaqCode.html?faqCode=TDDL-4007])
+	at com.primeton.workflow.service.persistence.SystemInfoManager.findSystemInfo(SystemInfoManager.java:122)
+	at com.primeton.workflow.service.persistence.SystemInfoManager.getConfigValue(SystemInfoManager.java:60)
+	at com.primeton.workflow.service.upgrade.UpGradeManagerImpl.getCurrentDataBaseVersion(UpGradeManagerImpl.java:123)
+	at com.primeton.workflow.service.upgrade.UpGradeManagerImpl.<init>(UpGradeManagerImpl.java:117)
+	at com.primeton.workflow.service.upgrade.UpGradeManagerFactory.initFactory(UpGradeManagerFactory.java:78)
+	at com.primeton.workflow.api.listener.WFStartUpListenerBase.loadFinished(WFStartUpListenerBase.java:500)
+	... 20 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: [e2aba7b2d801000][192.168.197.233:3306][drds_bkgyl_kf_jhgl]ERR-CODE: [TDDL-4007][ERR_CANNOT_FETCH_TABLE_META] Table 'WFSYSTEMINFO' metadata cannot be fetched because Table 'drds_bkgyl_kf_jhgl_chxc_0000.wfsysteminfo' doesn't exist. More: [http://middleware.alibaba-inc.com/faq/faqByFaqCode.html?faqCode=TDDL-4007]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:939)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3878)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1962)
+	at com.taobao.tddl.driver.proxy.PreparedStatementProxy.executeQuery(PreparedStatementProxy.java:59)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:76)
+	at com.primeton.ext.infra.connection.PreparedStatementWrapper.executeQuery(PreparedStatementWrapper.java:110)
+	at com.primeton.workflow.service.persistence.SystemInfoManager.findSystemInfo(SystemInfoManager.java:112)
+	... 25 more
+[BPS Process Server][2019-01-12 16:39:53,605][INFO] Start BPS Process Server !
+[BPS Process Server][2019-01-12 16:39:54,743][INFO] BPS Process Server start failed!!
+ErrCode: 21000000
+Message: NULL
+	at com.primeton.workflow.api.listener.WFStartUpListenerBase.loadFinished(WFStartUpListenerBase.java:583)
+	at com.primeton.workflow.api.listener.WFStartUpListenerChain.loadFinished(WFStartUpListenerChain.java:90)
+	at com.primeton.workflow.api.listener.WFStartUpListener.loadFinished(WFStartUpListener.java:112)
+	at com.primeton.runtime.resource.impl.ContributionListenerManager.fireLoadFinish(ContributionListenerManager.java:100)
+	at com.primeton.runtime.resource.impl.ResourceNotify.contributionLoadFinishNofity(ResourceNotify.java:403)
+	at com.primeton.runtime.resource.impl.ResourceNotify.notifyResource(ResourceNotify.java:109)
+	at com.primeton.runtime.resource.impl.ApplicationResourceLoaderManager.loadApplicationResource(ApplicationResourceLoaderManager.java:38)
+	at com.primeton.ext.runtime.resource.startup.ResourceLoaderStartUpListener.start(ResourceLoaderStartUpListener.java:36)
+	at com.primeton.runtime.core.impl.RuntimeListenerManagerImpl.startListener(RuntimeListenerManagerImpl.java:43)
+	at com.primeton.ext.runtime.core.RuntimeManager.start(RuntimeManager.java:55)
+	at com.primeton.ext.runtime.core.RuntimeJ2EEHost.contextInitialized(RuntimeJ2EEHost.java:52)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5003)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5517)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: ErrCode: 21000000
+Message: (BPS WFSystemInfo Table not exist or version information is incorrect:[e2abb4a57400000][192.168.197.218:3306][drds_bkgyl_kf_jhgl]ERR-CODE: [TDDL-4007][ERR_CANNOT_FETCH_TABLE_META] Table 'WFSYSTEMINFO' metadata cannot be fetched because Table 'drds_bkgyl_kf_jhgl_chxc_0000.wfsysteminfo' doesn't exist. More: [http://middleware.alibaba-inc.com/faq/faqByFaqCode.html?faqCode=TDDL-4007])
+	at com.primeton.workflow.service.persistence.SystemInfoManager.findSystemInfo(SystemInfoManager.java:122)
+	at com.primeton.workflow.service.persistence.SystemInfoManager.getConfigValue(SystemInfoManager.java:60)
+	at com.primeton.workflow.service.upgrade.UpGradeManagerImpl.getCurrentDataBaseVersion(UpGradeManagerImpl.java:123)
+	at com.primeton.workflow.service.upgrade.UpGradeManagerImpl.<init>(UpGradeManagerImpl.java:117)
+	at com.primeton.workflow.service.upgrade.UpGradeManagerFactory.initFactory(UpGradeManagerFactory.java:78)
+	at com.primeton.workflow.api.listener.WFStartUpListenerBase.loadFinished(WFStartUpListenerBase.java:500)
+	... 20 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: [e2abb4a57400000][192.168.197.218:3306][drds_bkgyl_kf_jhgl]ERR-CODE: [TDDL-4007][ERR_CANNOT_FETCH_TABLE_META] Table 'WFSYSTEMINFO' metadata cannot be fetched because Table 'drds_bkgyl_kf_jhgl_chxc_0000.wfsysteminfo' doesn't exist. More: [http://middleware.alibaba-inc.com/faq/faqByFaqCode.html?faqCode=TDDL-4007]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:939)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3878)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1962)
+	at com.taobao.tddl.driver.proxy.PreparedStatementProxy.executeQuery(PreparedStatementProxy.java:59)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:76)
+	at com.primeton.ext.infra.connection.PreparedStatementWrapper.executeQuery(PreparedStatementWrapper.java:110)
+	at com.primeton.workflow.service.persistence.SystemInfoManager.findSystemInfo(SystemInfoManager.java:112)
+	... 25 more

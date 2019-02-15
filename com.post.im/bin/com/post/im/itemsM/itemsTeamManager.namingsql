@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="com.post.im.itemsM.itemsTeamManager">
+    <parameterMap class="commonj.sdo.DataObject" id="parameterMap">
+        <parameter javaType="date" jdbcType="DATE" property="dateType"/>
+    </parameterMap>
+    <resultMap class="commonj.sdo.DataObject" id="resultMap">
+        <result column="TYPEID" javaType="string" property="typeId"/>
+    </resultMap>
+    <select id="select_id" parameterMap="parameterMap" resultMap="resultMap"><![CDATA[sql statement]]></select>
+    <select id="queryTbImItemsUsersRela" parameterClass="com.post.im.itemsM.itemsM.TbImItemsUsersRela" resultClass="java.util.HashMap">
+		select rec_id recId,items_cd itemsCd,user_id userId from tb_im_items_users_rela where  1=1
+		<isNotNull prepend="AND" property="userId">user_id =#userId#</isNotNull>
+        <isNotNull prepend="AND" property="itemsCd">items_cd = #itemsCd#</isNotNull>
+        <isNotNull prepend="AND" property="reStat">re_stat = #reStat#</isNotNull>
+    </select>
+    <select id="queryItemsUserList" parameterClass="java.util.HashMap" resultClass="commonj.sdo.DataObject">		
+		SELECT
+	a.items_cd itemsCd,
+	a.items_nm itemsNm,
+	b.user_id tlrNo,
+	c.tlr_name tlrName
+	from tb_im_items_info a,
+	tb_im_items_users_rela b,
+	bc_pmctl_teller c
+WHERE
+	a.items_cd = b.items_cd
+AND b.user_id = c.tlr_no
+ <isNotNull prepend="AND" property="itemsCd">a.items_cd = #itemsCd#</isNotNull>
+        <isNotNull prepend="AND" property="reStat">b.re_stat= #reStat#</isNotNull>
+    </select>
+    <select id="queryItemsInfos" parameterClass="java.util.HashMap" resultClass="java.util.HashMap">
+		select b.rec_id recId,a.items_cd itemsCd,a.items_nm itemsNm,b.user_id userId,b.role_code roleCode from 
+		tb_im_items_info a,tb_im_items_users_rela b where  a.items_cd=b.items_cd
+		<isNotNull prepend="AND" property="userId">b.user_id =#userId#</isNotNull>
+        <isNotNull prepend="AND" property="itemsCd">a.items_cd = #itemsCd#</isNotNull>
+        <isNotNull prepend="AND" property="reStat">b.re_stat = #reStat#</isNotNull>
+    </select>
+</sqlMap>

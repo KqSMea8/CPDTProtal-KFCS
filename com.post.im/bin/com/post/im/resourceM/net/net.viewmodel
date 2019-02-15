@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<viewModelSet author="Administrator" displayName="net" id="com.post.im.resourceM.net.net">
+    <viewModel author="Administrator" displayName="TbImNetApply" entityName="com.post.im.resourceM.net.net.TbImNetApply" id="TbImNetApply">
+        <field dataType="Int" dict="false" entityField="recId" id="recId" label="非业务性主键，自增长序列号">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="String" dict="false" entityField="itemsCd" id="itemsCd" label="初步规则为8位日期+项目类别+4位顺序编号：如：20181225010001">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="String" dict="false" entityField="userId" id="userId" label="申请人用户ID">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="Date" dict="false" entityField="applyDate" id="applyDate" label="申请时间">
+            <view type="write"/>
+            <edit name="" type="date"/>
+        </field>
+        <field dataType="String" dict="false" entityField="accessIp" id="accessIp" label="访问端IP">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="String" dict="false" entityField="accessPort" id="accessPort" label="访问端端口号">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="String" dict="false" entityField="accessedIp" id="accessedIp" label="被访问端IP">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="String" dict="false" entityField="accessedPort" id="accessedPort" label="被访问端端口号">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="String" dict="false" entityField="openStat" id="openStat" label="01-已申请02-进行中03-已开通04-已拒绝">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="String" dict="false" entityField="remark" id="remark" label="审批备注/拒绝原因">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="String" dict="false" entityField="field1" id="field1" label="备用1">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="String" dict="false" entityField="field2" id="field2" label="备用2">
+            <view type="write"/>
+            <edit name="" type="text"/>
+        </field>
+        <field dataType="Date" dict="false" entityField="crTime" id="crTime" label="创建时间">
+            <view type="write"/>
+            <edit name="" type="date"/>
+        </field>
+        <field dataType="Date" dict="false" entityField="edTime" id="edTime" label="最后修改时间">
+            <view type="write"/>
+            <edit name="" type="date"/>
+        </field>
+    </viewModel>
+</viewModelSet>

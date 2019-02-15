@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns="com.post.trm.TrainScheInfo" xmlns:sdo="commonj.sdo" xmlns:sdoJava="commonj.sdo/java" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="com.post.trm.TrainScheInfo">
+    <xs:complexType name="TbTrmScheInfo">
+        <xs:sequence>
+            <xs:any minOccurs="0"/>
+            <xs:element minOccurs="0" name="recId" nillable="true" type="xs:int"/>
+            <xs:element minOccurs="0" name="itemsNm" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="trainCont" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="trainSche" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="trainAd" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="trainTutor" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="trainPers" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="field1" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="field2" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="crTime" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="edTime" nillable="true" type="xs:dateTime"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

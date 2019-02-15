@@ -1,0 +1,26 @@
+<map>
+  <entry>
+    <string>com.post.em.tbemprivecsinfobiz.deleteTbEmPrivEcsInfos(com.post.em.baseInfo.emPrivInfo.TbEmPrivEcsInfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;deleteTbEmPrivEcsInfos&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;deleteTbEmPrivEcsInfos&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.tbemprivecsinfobiz.deleteTbEmPrivEcsInfos&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivecsinfos(com.post.em.baseInfo.emPrivInfo.TbEmPrivEcsInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string></string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;tbemprivecsinfobiz.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.tbemprivecsinfobiz&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.tbemprivecsinfobiz.updateTbEmPrivEcsInfo(com.post.em.baseInfo.emPrivInfo.TbEmPrivEcsInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateTbEmPrivEcsInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateTbEmPrivEcsInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.tbemprivecsinfobiz.updateTbEmPrivEcsInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivecsinfo(com.post.em.baseInfo.emPrivInfo.TbEmPrivEcsInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.tbemprivecsinfobiz.getTbEmPrivEcsInfo(com.post.em.baseInfo.emPrivInfo.TbEmPrivEcsInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getTbEmPrivEcsInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getTbEmPrivEcsInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.tbemprivecsinfobiz.getTbEmPrivEcsInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivecsinfo(com.post.em.baseInfo.emPrivInfo.TbEmPrivEcsInfo):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivecsinfo(com.post.em.baseInfo.emPrivInfo.TbEmPrivEcsInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.tbemprivecsinfobiz.addTbEmPrivEcsInfo(com.post.em.baseInfo.emPrivInfo.TbEmPrivEcsInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;addTbEmPrivEcsInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;addTbEmPrivEcsInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.tbemprivecsinfobiz.addTbEmPrivEcsInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivecsinfo(com.post.em.baseInfo.emPrivInfo.TbEmPrivEcsInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.tbemprivecsinfobiz.queryTbEmPrivEcsInfos(com.primeton.das.criteria.criteriaType, com.eos.foundation.PageCond, Int, Int)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;queryTbEmPrivEcsInfos&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;queryTbEmPrivEcsInfos&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.tbemprivecsinfobiz.queryTbEmPrivEcsInfos&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;criteria(com.primeton.das.criteria.criteriaType):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;page(com.eos.foundation.PageCond):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageIndex(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageSize(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivecsinfos(com.post.em.baseInfo.emPrivInfo.TbEmPrivEcsInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;total(Int):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

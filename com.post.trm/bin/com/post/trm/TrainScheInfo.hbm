@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class dynamic-insert="true" dynamic-update="true" entity-name="com.post.trm.TrainScheInfo.TbTrmScheInfo" table="tb_trm_sche_info">
+        <tuplizer class="com.primeton.server.das.tuplizer.SDOEntityTuplizer" entity-mode="sdo"/>
+        <id name="recId" type="int">
+            <column name="rec_id"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="itemsNm" type="string">
+            <column length="64" name="items_nm" not-null="true"/>
+        </property>
+        <property name="trainCont" type="string">
+            <column length="64" name="train_cont" not-null="true"/>
+        </property>
+        <property name="trainSche" type="string">
+            <column length="64" name="train_sche" not-null="true"/>
+        </property>
+        <property name="trainAd" type="string">
+            <column length="64" name="train_ad" not-null="true"/>
+        </property>
+        <property name="trainTutor" type="string">
+            <column length="64" name="train_tutor" not-null="true"/>
+        </property>
+        <property name="trainPers" type="string">
+            <column length="64" name="train_pers"/>
+        </property>
+        <property name="field1" type="string">
+            <column length="64" name="field1"/>
+        </property>
+        <property name="field2" type="string">
+            <column length="64" name="field2"/>
+        </property>
+        <property name="crTime" type="timestamp">
+            <column name="cr_time" not-null="true"/>
+        </property>
+        <property name="edTime" type="timestamp">
+            <column name="ed_time"/>
+        </property>
+    </class>
+</hibernate-mapping>

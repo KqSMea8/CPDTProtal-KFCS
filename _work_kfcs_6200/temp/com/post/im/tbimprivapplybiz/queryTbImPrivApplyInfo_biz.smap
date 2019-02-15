@@ -1,0 +1,14 @@
+SMAP
+queryTbImPrivApplyInfo_biz.java
+biz
+*S biz
+*F
++ 0 queryTbImPrivApplyInfo.bizx
+com/post/im/tbimprivapplybiz/queryTbImPrivApplyInfo.bizx
+*L
+2:263
+1:302,2
+10000:305
+40000:308
+400000:311
+*E

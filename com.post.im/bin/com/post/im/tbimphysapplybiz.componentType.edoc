@@ -1,0 +1,26 @@
+<map>
+  <entry>
+    <string></string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;tbimphysapplybiz.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimphysapplybiz&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimphysapplybiz.queryTbImPhysApplys(com.primeton.das.criteria.criteriaType, com.eos.foundation.PageCond, Int, Int)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;queryTbImPhysApplys&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;queryTbImPhysApplys&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimphysapplybiz.queryTbImPhysApplys&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;criteria(com.primeton.das.criteria.criteriaType):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;page(com.eos.foundation.PageCond):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageIndex(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageSize(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimphysapplys(com.post.im.resourceM.phys.phys.TbImPhysApply[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;total(Int):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimphysapplybiz.updateTbImPhysApply(com.post.im.resourceM.phys.phys.TbImPhysApply)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateTbImPhysApply&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateTbImPhysApply&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimphysapplybiz.updateTbImPhysApply&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimphysapply(com.post.im.resourceM.phys.phys.TbImPhysApply):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimphysapplybiz.getTbImPhysApply(com.post.im.resourceM.phys.phys.TbImPhysApply)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getTbImPhysApply&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getTbImPhysApply&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimphysapplybiz.getTbImPhysApply&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimphysapply(com.post.im.resourceM.phys.phys.TbImPhysApply):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimphysapply(com.post.im.resourceM.phys.phys.TbImPhysApply):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimphysapplybiz.deleteTbImPhysApplys(com.post.im.resourceM.phys.phys.TbImPhysApply[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;deleteTbImPhysApplys&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;deleteTbImPhysApplys&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimphysapplybiz.deleteTbImPhysApplys&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimphysapplys(com.post.im.resourceM.phys.phys.TbImPhysApply[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimphysapplybiz.addTbImPhysApply(com.post.im.resourceM.phys.phys.TbImPhysApply)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;addTbImPhysApply&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;addTbImPhysApply&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimphysapplybiz.addTbImPhysApply&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimphysapply(com.post.im.resourceM.phys.phys.TbImPhysApply):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

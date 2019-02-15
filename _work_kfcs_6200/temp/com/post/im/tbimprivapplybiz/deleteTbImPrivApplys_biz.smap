@@ -1,0 +1,19 @@
+SMAP
+deleteTbImPrivApplys_biz.java
+biz
+*S biz
+*F
++ 0 deleteTbImPrivApplys.bizx
+com/post/im/tbimprivapplybiz/deleteTbImPrivApplys.bizx
+*L
+370000:276
+2:460
+1:499,2
+10000:502
+40000:505
+250000:508
+260000:511
+70000:514
+400000:517
+190000:520
+*E

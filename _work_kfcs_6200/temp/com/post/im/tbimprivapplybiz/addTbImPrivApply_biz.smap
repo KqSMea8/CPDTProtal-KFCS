@@ -1,0 +1,22 @@
+SMAP
+addTbImPrivApply_biz.java
+biz
+*S biz
+*F
++ 0 addTbImPrivApply.bizx
+com/post/im/tbimprivapplybiz/addTbImPrivApply.bizx
+*L
+370000:187
+370001:236
+2:566
+1:605,2
+10000:608
+40000:611
+70000:614
+70001:617
+190000:620
+400000:623
+400001:626
+190001:629
+400002:632
+*E

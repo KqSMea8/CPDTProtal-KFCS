@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="com.post.im.resourceM.priv.priv">
+    <select id="select_id" parameterClass="java.lang.String" resultClass="com.post.im.resourceM.priv.priv.TbImPrivApply"><![CDATA[
+	    	select 
+	    		*
+	    	 from 
+	    	 	tb_im_priv_apply 
+	    	 where 
+	    	 	rec_id = #resourceId#
+	 	]]></select>
+</sqlMap>

@@ -1,0 +1,18 @@
+<map>
+  <entry>
+    <string>com.post.trm.TrainScheInfo.trainScheUpdate(com.post.trm.TrainScheInfo.TbTrmScheInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;trainScheUpdate&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;保存报销单的修改&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.trm.TrainScheInfo.trainScheUpdate&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;info(com.post.trm.TrainScheInfo.TbTrmScheInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>TrainScheInfo</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;TrainScheInfo.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;TrainScheInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.trm.TrainScheInfo&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.trm.TrainScheInfo.trainScheAdd(com.post.trm.TrainScheInfo.TbTrmScheInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;trainScheAdd&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;expenseAdd&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.trm.TrainScheInfo.trainScheAdd&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;info(com.post.trm.TrainScheInfo.TbTrmScheInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.trm.TrainScheInfo.queryTrainScheInfo(String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;queryTrainScheInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;queryTrainScheInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.trm.TrainScheInfo.queryTrainScheInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;beginDate(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;endDate(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;trainScheInfo(com.post.trm.TrainScheInfo.TbTrmScheInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

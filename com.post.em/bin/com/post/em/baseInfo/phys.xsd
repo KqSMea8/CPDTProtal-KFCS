@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns="com.post.em.baseInfo.phys" xmlns:sdo="commonj.sdo" xmlns:sdoJava="commonj.sdo/java" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="com.post.em.baseInfo.phys">
+    <xs:complexType name="TbEmPhysInfo">
+        <xs:sequence>
+            <xs:any minOccurs="0"/>
+            <xs:element minOccurs="0" name="recId" nillable="true" type="xs:int"/>
+            <xs:element minOccurs="0" name="physIp" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="cpuInfo" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="memoInfo" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="adminNm" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="adminPass" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="itemsCd" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="itemsNm" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="evmentType" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="field1" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="field2" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="crTime" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="edTime" nillable="true" type="xs:dateTime"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

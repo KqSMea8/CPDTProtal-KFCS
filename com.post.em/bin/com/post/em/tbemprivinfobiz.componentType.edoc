@@ -1,0 +1,26 @@
+<map>
+  <entry>
+    <string>com.post.em.tbemprivinfobiz.deleteTbEmPrivInfos(com.post.em.baseInfo.emPrivInfo.TbEmPrivInfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;deleteTbEmPrivInfos&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;deleteTbEmPrivInfos&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.tbemprivinfobiz.deleteTbEmPrivInfos&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivinfos(com.post.em.baseInfo.emPrivInfo.TbEmPrivInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string></string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;tbemprivinfobiz.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.tbemprivinfobiz&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.tbemprivinfobiz.updateTbEmPrivInfo(com.post.em.baseInfo.emPrivInfo.TbEmPrivInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateTbEmPrivInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateTbEmPrivInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.tbemprivinfobiz.updateTbEmPrivInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivinfo(com.post.em.baseInfo.emPrivInfo.TbEmPrivInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.tbemprivinfobiz.getTbEmPrivInfo(com.post.em.baseInfo.emPrivInfo.TbEmPrivInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getTbEmPrivInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getTbEmPrivInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.tbemprivinfobiz.getTbEmPrivInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivinfo(com.post.em.baseInfo.emPrivInfo.TbEmPrivInfo):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivinfo(com.post.em.baseInfo.emPrivInfo.TbEmPrivInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.tbemprivinfobiz.queryTbEmPrivInfos(com.primeton.das.criteria.criteriaType, com.eos.foundation.PageCond, Int, Int)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;queryTbEmPrivInfos&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;queryTbEmPrivInfos&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.tbemprivinfobiz.queryTbEmPrivInfos&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;criteria(com.primeton.das.criteria.criteriaType):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;page(com.eos.foundation.PageCond):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageIndex(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageSize(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivinfos(com.post.em.baseInfo.emPrivInfo.TbEmPrivInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;total(Int):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.tbemprivinfobiz.addTbEmPrivInfo(com.post.em.baseInfo.emPrivInfo.TbEmPrivInfo)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;addTbEmPrivInfo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;addTbEmPrivInfo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.tbemprivinfobiz.addTbEmPrivInfo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivinfo(com.post.em.baseInfo.emPrivInfo.TbEmPrivInfo):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

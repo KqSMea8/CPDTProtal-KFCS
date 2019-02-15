@@ -1,0 +1,26 @@
+<map>
+  <entry>
+    <string></string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;tbimnetapplybiz.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimnetapplybiz&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimnetapplybiz.deleteTbImNetApplys(com.post.im.resourceM.net.net.TbImNetApply[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;deleteTbImNetApplys&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;deleteTbImNetApplys&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimnetapplybiz.deleteTbImNetApplys&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimnetapplys(com.post.im.resourceM.net.net.TbImNetApply[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimnetapplybiz.getTbImNetApply(com.post.im.resourceM.net.net.TbImNetApply)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getTbImNetApply&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getTbImNetApply&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimnetapplybiz.getTbImNetApply&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimnetapply(com.post.im.resourceM.net.net.TbImNetApply):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimnetapply(com.post.im.resourceM.net.net.TbImNetApply):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimnetapplybiz.addTbImNetApply(com.post.im.resourceM.net.net.TbImNetApply)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;addTbImNetApply&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;addTbImNetApply&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimnetapplybiz.addTbImNetApply&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimnetapply(com.post.im.resourceM.net.net.TbImNetApply):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimnetapplybiz.updateTbImNetApply(com.post.im.resourceM.net.net.TbImNetApply)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateTbImNetApply&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateTbImNetApply&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimnetapplybiz.updateTbImNetApply&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimnetapply(com.post.im.resourceM.net.net.TbImNetApply):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.im.tbimnetapplybiz.queryTbImNetApplys(com.primeton.das.criteria.criteriaType, com.eos.foundation.PageCond, Int, Int)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;queryTbImNetApplys&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;queryTbImNetApplys&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.im.tbimnetapplybiz.queryTbImNetApplys&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;criteria(com.primeton.das.criteria.criteriaType):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;page(com.eos.foundation.PageCond):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageIndex(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageSize(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbimnetapplys(com.post.im.resourceM.net.net.TbImNetApply[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;total(Int):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

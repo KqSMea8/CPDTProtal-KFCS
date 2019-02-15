@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class dynamic-insert="true" dynamic-update="true" entity-name="com.post.em.baseInfo.item.TbImItemsInfo" table="tb_im_items_info">
+        <tuplizer class="com.primeton.server.das.tuplizer.SDOEntityTuplizer" entity-mode="sdo"/>
+        <id name="itemsCd" type="int">
+            <column name="items_cd"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="itemsNm" type="string">
+            <column length="64" name="items_nm"/>
+        </property>
+        <property name="itemsType" type="string">
+            <column length="2" name="items_type"/>
+        </property>
+        <property name="itemsSource" type="string">
+            <column length="2" name="items_source"/>
+        </property>
+        <property name="startTime" type="date">
+            <column name="start_time"/>
+        </property>
+        <property name="endTime" type="date">
+            <column name="end_time"/>
+        </property>
+        <property name="avalWorkDay" type="int">
+            <column name="aval_work_day"/>
+        </property>
+        <property name="itemsDesc" type="int">
+            <column name="items_desc"/>
+        </property>
+        <property name="field1" type="string">
+            <column length="64" name="field1"/>
+        </property>
+        <property name="field2" type="string">
+            <column length="64" name="field2"/>
+        </property>
+        <property name="crTime" type="timestamp">
+            <column name="cr_time"/>
+        </property>
+        <property name="edTime" type="timestamp">
+            <column name="ed_time"/>
+        </property>
+    </class>
+</hibernate-mapping>

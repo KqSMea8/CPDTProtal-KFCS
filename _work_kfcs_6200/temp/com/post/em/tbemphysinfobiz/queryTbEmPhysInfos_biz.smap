@@ -1,0 +1,16 @@
+SMAP
+queryTbEmPhysInfos_biz.java
+biz
+*S biz
+*F
++ 0 queryTbEmPhysInfos.bizx
+com/post/em/tbemphysinfobiz/queryTbEmPhysInfos.bizx
+*L
+370000:218
+2:384
+1:424,2
+10000:427
+40000:430
+70000:433
+20000:436
+*E

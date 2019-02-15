@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Require-Bundle: com.primeton.eos.richweb,com.eos.foundation,com.eos.wo
+ rkflow
+eos-webCtxPath: fm
+Bundle-Vendor: Administrator
+Bundle-Version: 1.0.0
+Bundle-Name: com.post.fm
+Bundle-Description: 流程中心
+Bundle-SymbolicName: com.post.fm
+

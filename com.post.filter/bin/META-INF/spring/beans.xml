@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:hsf="http://www.taobao.com/hsf" xmlns:sca="http://www.springframework.org/schema/sca"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	default-autowire="byName"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd 
+	     http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd  
+	     http://www.springframework.org/schema/sca http://www.osoa.org/xmlns/sca/1.0/spring-sca.xsd  
+	     http://www.taobao.com/hsf http://www.taobao.com/hsf/hsf.xsd">
+	
+	<hsf:consumer group="HSF" interface="com.pfpj.bcc.res.api.menu.MenuApi" version="1.0.0" id="menuApi">
+	</hsf:consumer>
+	<hsf:consumer group="HSF" interface="com.pfpj.cert.api.LoginProviderApi" version="1.0.0" id="loginProviderApi">
+	</hsf:consumer>
+	<hsf:consumer group="HSF" interface="com.pfpj.bcc.base.teller.api.TellerApi" version="1.0.0" id="tellerApi">
+	</hsf:consumer>
+	<hsf:consumer group="HSF" interface="com.post.kfcs.im.itemsM.api.ItemsManagerApi" version="1.0.0" id="itemsApi">
+	</hsf:consumer>
+</beans>

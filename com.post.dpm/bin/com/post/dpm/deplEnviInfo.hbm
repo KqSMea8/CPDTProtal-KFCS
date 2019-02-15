@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class dynamic-insert="true" dynamic-update="true" entity-name="com.post.dpm.deplEnviInfo.TbBpmDeplEninfo" table="tb_bpm_depl_eninfo">
+        <tuplizer class="com.primeton.server.das.tuplizer.SDOEntityTuplizer" entity-mode="sdo"/>
+        <id name="recId" type="int">
+            <column name="rec_id"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="items" type="string">
+            <column length="64" name="items" not-null="true"/>
+        </property>
+        <property name="subsystem" type="string">
+            <column length="64" name="subsystem"/>
+        </property>
+        <property name="subsDesc" type="string">
+            <column length="64" name="subs_desc"/>
+        </property>
+        <property name="deplServ" type="string">
+            <column length="64" name="depl_serv" not-null="true"/>
+        </property>
+        <property name="deplPath" type="string">
+            <column length="64" name="depl_path" not-null="true"/>
+        </property>
+        <property name="field1" type="string">
+            <column length="64" name="field1"/>
+        </property>
+        <property name="field2" type="string">
+            <column length="64" name="field2"/>
+        </property>
+        <property name="crTime" type="timestamp">
+            <column name="cr_time" not-null="true"/>
+        </property>
+        <property name="edTime" type="timestamp">
+            <column name="ed_time" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

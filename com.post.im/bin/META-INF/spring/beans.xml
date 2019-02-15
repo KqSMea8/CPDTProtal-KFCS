@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:hsf="http://www.taobao.com/hsf" xmlns:sca="http://www.springframework.org/schema/sca" xmlns:tx="http://www.springframework.org/schema/tx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="   http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd   http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd   http://www.springframework.org/schema/sca http://www.osoa.org/xmlns/sca/1.0/spring-sca.xsd   http://www.taobao.com/hsf http://www.taobao.com/hsf/hsf.xsd">
+    <!--
+	<hsf:consumer group="" interface="" version="1.0.0" id="">
+	</hsf:consumer>
+	<hsf:provider id="" group="" interface="" version="1.0.0">
+  </hsf:provider>
+  -->
+    <bean class="com.post.im.resourceM.priv.PrivDetail" id="PrivDetailBean"/>
+    <bean class="com.post.im.resourceM.phys.PhysDetail" id="PhysDetailBean"/>
+    <bean class="com.post.im.resourceM.net.NetDetail" id="NetDetailBean"/>
+    <bean class="com.post.im.resourceM.priv.PrivBacklog" id="PrivBacklogBean"/>
+    <bean class="com.post.im.resourceM.phys.PhysBacklog" id="PhysBacklogBean"/>
+    <bean class="com.post.im.resourceM.priv.PrivApply" id="PrivApplyBean"/>
+    
+    
+    
+    <!-- add by liuliang itemsManagerHSFProvide -->
+    <bean class="com.post.im.itemsM.impl.ItemsManagerApiHSFProvider" id="itemsManagerApiImpl"/>
+        <!-- 提供一个服务示例 -->
+    <hsf:provider id="itemsManagerApiHSFProvider" group="HFS" interface="com.post.kfcs.im.itemsM.api.ItemsManagerApi"
+        ref="itemsManagerApiImpl" version="1.0.0">
+    </hsf:provider>
+</beans>

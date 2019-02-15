@@ -1,0 +1,46 @@
+<map>
+  <entry>
+    <string>com.post.em.baseInfo.regrant.recovery(com.post.em.baseInfo.emPrivInfo.TbEmPrivEcsInfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;recovery&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;recovery&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.regrant.recovery&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivecsinfos(com.post.em.baseInfo.emPrivInfo.TbEmPrivEcsInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;out1(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.regrant.mqrecovery(com.post.em.baseInfo.mq.TbEmPrivMqInfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;mqrecovery&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;mqrecovery&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.regrant.mqrecovery&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivmqinfos(com.post.em.baseInfo.mq.TbEmPrivMqInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;out1(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>regrant</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;regrant.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;regrant&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.regrant&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.regrant.rdsrecovery(com.post.em.baseInfo.rds.TbEmPrivRdsInfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;rdsrecovery&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;rdsrecovery&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.regrant.rdsrecovery&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivrdsinfos(com.post.em.baseInfo.rds.TbEmPrivRdsInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;out1(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.regrant.mqregrant(com.post.em.baseInfo.mq.TbEmPrivMqInfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;mqregrant&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;mqregrant&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.regrant.mqregrant&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivmqinfos(com.post.em.baseInfo.mq.TbEmPrivMqInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;out1(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.regrant.regrant(com.post.em.baseInfo.emPrivInfo.TbEmPrivEcsInfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;regrant&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;regrant&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.regrant.regrant&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivecsinfos(com.post.em.baseInfo.emPrivInfo.TbEmPrivEcsInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;out1(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.regrant.physrecovery(com.post.em.baseInfo.phys.TbEmPhysInfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;physrecovery&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;physrecovery&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.regrant.physrecovery&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemphysinfos(com.post.em.baseInfo.phys.TbEmPhysInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;out1(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.regrant.kvsregrant(com.post.em.baseInfo.kvs.TbEmPrivKvsInfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;kvsregrant&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;kvsregrant&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.regrant.kvsregrant&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivkvsinfos(com.post.em.baseInfo.kvs.TbEmPrivKvsInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;out1(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.regrant.rdsregrant(com.post.em.baseInfo.rds.TbEmPrivRdsInfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;rdsregrant&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;rdsregrant&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.regrant.rdsregrant&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivrdsinfos(com.post.em.baseInfo.rds.TbEmPrivRdsInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;out1(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.regrant.physregrant(com.post.em.baseInfo.phys.TbEmPhysInfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;physregrant&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;physregrant&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.regrant.physregrant&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemphysinfos(com.post.em.baseInfo.phys.TbEmPhysInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;out1(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.post.em.baseInfo.regrant.kvsrecovery(com.post.em.baseInfo.kvs.TbEmPrivKvsInfo[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;kvsrecovery&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;kvsrecovery&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.post.em.baseInfo.regrant.kvsrecovery&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tbemprivkvsinfos(com.post.em.baseInfo.kvs.TbEmPrivKvsInfo[]):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;out1(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

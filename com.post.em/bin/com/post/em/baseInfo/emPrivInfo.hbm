@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class dynamic-insert="true" dynamic-update="true" entity-name="com.post.em.baseInfo.emPrivInfo.TbEmPrivEcsInfo" table="tb_em_priv_ecs_info">
+        <tuplizer class="com.primeton.server.das.tuplizer.SDOEntityTuplizer" entity-mode="sdo"/>
+        <id name="recId" type="int">
+            <column name="rec_id"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="ecsIp" type="string">
+            <column length="15" name="ecs_ip"/>
+        </property>
+        <property name="ecsNm" type="string">
+            <column length="32" name="ecs_nm"/>
+        </property>
+        <property name="edasNm" type="string">
+            <column length="32" name="edas_nm"/>
+        </property>
+        <property name="cpuInfo" type="string">
+            <column length="64" name="cpu_info"/>
+        </property>
+        <property name="memoInfo" type="string">
+            <column length="64" name="memo_info"/>
+        </property>
+        <property name="itemsCd" type="string">
+            <column length="16" name="items_cd"/>
+        </property>
+        <property name="itemsNm" type="string">
+            <column length="64" name="items_nm"/>
+        </property>
+        <property name="evmentType" type="string">
+            <column length="2" name="evment_type"/>
+        </property>
+        <property name="adminNm" type="string">
+            <column length="32" name="admin_nm"/>
+        </property>
+        <property name="adminPass" type="string">
+            <column length="32" name="admin_pass"/>
+        </property>
+        <property name="field1" type="string">
+            <column length="64" name="field1"/>
+        </property>
+        <property name="field2" type="string">
+            <column length="64" name="field2"/>
+        </property>
+        <property name="crTime" type="timestamp">
+            <column name="cr_time"/>
+        </property>
+        <property name="edTime" type="timestamp">
+            <column name="ed_time"/>
+        </property>
+    </class>
+</hibernate-mapping>

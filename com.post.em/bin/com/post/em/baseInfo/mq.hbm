@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class dynamic-insert="true" dynamic-update="true" entity-name="com.post.em.baseInfo.mq.TbEmPrivMqInfo" table="tb_em_priv_mq_info">
+        <tuplizer class="com.primeton.server.das.tuplizer.SDOEntityTuplizer" entity-mode="sdo"/>
+        <id name="recId" type="int">
+            <column name="rec_id"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="mqNm" type="string">
+            <column length="32" name="mq_nm"/>
+        </property>
+        <property name="mqLkStr" type="string">
+            <column length="64" name="mq_lk_str"/>
+        </property>
+        <property name="mqAk" type="string">
+            <column length="64" name="mq_ak"/>
+        </property>
+        <property name="mqSk" type="string">
+            <column length="64" name="mq_sk"/>
+        </property>
+        <property name="itemsCd" type="string">
+            <column length="16" name="items_cd"/>
+        </property>
+        <property name="itemsNm" type="string">
+            <column length="64" name="items_nm"/>
+        </property>
+        <property name="evmentType" type="string">
+            <column length="2" name="evment_type"/>
+        </property>
+        <property name="field1" type="string">
+            <column length="64" name="field1"/>
+        </property>
+        <property name="field2" type="string">
+            <column length="64" name="field2"/>
+        </property>
+        <property name="crTime" type="timestamp">
+            <column name="cr_time"/>
+        </property>
+        <property name="edTime" type="timestamp">
+            <column name="ed_time"/>
+        </property>
+    </class>
+</hibernate-mapping>
